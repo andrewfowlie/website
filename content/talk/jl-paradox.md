@@ -10,7 +10,7 @@ location = "Monash University"
 selected = false
 math = true
 
-url_pdf = ""
+url_pdf = "https://github.com/andrewfowlie/website/blob/master/content/talk/jl-paradox.pdf"
 url_slides = ""
 url_video = ""
 
