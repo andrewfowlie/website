@@ -18,12 +18,12 @@ url_slides = ""
 url_video = ""
 
 [[url_custom]]
-  name = "DOI"
-  url = "http://dx.doi.org/10.1103/PhysRevD.95.043505"
+name = "DOI"
+url = "http://dx.doi.org/10.1103/PhysRevD.95.043505"
   
 # Optional featured image (relative to `static/img/` folder).
-[header]
-  image = "grav_waves_web.png"
-  caption = "Maximum entropy trajector of dark matter velocity distribution"
+# [header]
+#  image = "grav_waves_web.png"
+#  caption = "Maximum entropy trajector of dark matter velocity distribution"
 
 +++

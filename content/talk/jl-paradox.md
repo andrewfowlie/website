@@ -10,8 +10,8 @@ location = "Monash University"
 selected = false
 math = true
 
-url_pdf = "https://github.com/andrewfowlie/website/blob/master/content/talk/jl-paradox.pdf"
-url_slides = ""
+url_pdf = ""
+url_slides = "https://github.com/andrewfowlie/website/blob/master/content/talk/jl-paradox.pdf"
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
