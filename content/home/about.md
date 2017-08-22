@@ -32,6 +32,7 @@ weight = 1
  
 +++
 
-# Biography
-
-Andrew Fowlie is a post-doctoral researcher in high-energy physics at Monash University. His research interests include beyond the standard model phenomenlogy, LHC physics, dark matter and Bayesian statistics. 
+# Hi!
+<span style="color: #FFF8DC">
+I am Andrew Fowlie, a post-doctoral researcher in high-energy physics at Monash University. My research interests include beyond the standard model phenomenlogy, LHC physics, dark matter and Bayesian statistics. 
+</span>
