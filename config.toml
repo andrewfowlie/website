@@ -25,8 +25,8 @@ defaultContentLanguageInSubdir = false
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  # email = "test@example.org"
-  # address = "Monash University, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
+  email = "Andrew.Fowlie@Monash.Edu"
+  address = "Monash University, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "888 888 88 88"
   # skype = "echo123"
@@ -189,10 +189,10 @@ defaultContentLanguageInSubdir = false
 #   url = "#teaching"
 #   weight = 4
 
-# [[menu.main]]
-#   name = "Contact"
-#   url = "#contact"
-#   weight = 5
+[[menu.main]]
+  name = "Contact me"
+  url = "#contact"
+  weight = 4
 
 # Taxonomies.
 [taxonomies]
