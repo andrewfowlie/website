@@ -14,7 +14,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "http://arxiv.org/pdf/1602.03889.pdf"
 url_project = ""
-url_slides = ""
+url_slides = "https://indico.cern.ch/event/491882/contributions/2306104/attachments/1375199/2087902/relaxion.pdf"
 url_video = ""
 
 [[url_custom]]
