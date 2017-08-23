@@ -34,4 +34,4 @@ weight = 1
 
 # Hi!
 
-I am Andrew Fowlie, a post-doctoral researcher in high-energy physics at Monash University. My research interests include beyond the standard model phenomenlogy, LHC physics, dark matter and Bayesian statistics. 
+I am Andrew Fowlie, a post-doctoral researcher in high-energy physics at Monash University. My research interests include beyond the standard model phenomenlogy, LHC physics, dark matter and Bayesian statistics.

@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
   organization = "Monash University"
   organization_url = "https://www.monash.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "pMAqUYzR_400x400.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "Andrew.Fowlie@Monash.Edu"
   address = "Monash University, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["color.css"]
   custom_js  = []
 
   # Publication types.
@@ -128,20 +128,20 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "mailto:andrew.fowlie@monash.edu"
 
-  # [[params.social]]
-  #  icon = "twitter"
-  #  icon_pack = "fa"
-  #  link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "https://twitter.com/fowlimon"
 
   # [[params.social]]
   #   icon = "arxiv"
   #   icon_pack = "ai"
   #   link = "https://arxiv.org/find/hep-ph/1/au:+Fowlie_A/0/1/0/all/0/1"
-
+  
   [[params.social]]
-     icon = "orcid"
-     icon_pack = "ai"
-     link = "http://inspirehep.net/author/profile/A.Fowlie.1"
+     icon = "stack-exchange"
+     icon_pack = "fa"
+     link = "https://physics.stackexchange.com/users/23389/innisfree?tab=profile"
 
   # [[params.social]]
   #  icon = "google-scholar"
@@ -153,6 +153,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//github.com/andrewfowlie"
 
+  [[params.social]]
+     icon = "inspire"
+     icon_pack = "ai"
+     link = "http://inspirehep.net/author/profile/A.Fowlie.1"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -190,9 +194,14 @@ defaultContentLanguageInSubdir = false
 #   weight = 4
 
 [[menu.main]]
+  name = "CV"
+  url = "#cv"
+  weight = 4
+
+[[menu.main]]
   name = "Contact me"
   url = "#contact"
-  weight = 4
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
