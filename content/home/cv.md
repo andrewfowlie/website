@@ -14,4 +14,4 @@ weight = 40
 
 +++
 
-&nbsp;&nbsp;<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;[Academic CV](https://docs.google.com/viewer?url=https://github.com/andrewfowlie/website/raw/master/content/home/CV.pdf)
+&nbsp;&nbsp;<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;[Academic CV](https://github.com/andrewfowlie/website/raw/master/content/home/CV.pdf)
