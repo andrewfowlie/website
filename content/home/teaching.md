@@ -16,5 +16,5 @@ weight = 40
 
 - I cosupervise a PhD student at Monash University, Giancarlo Pozzo
 - I supervised Michael Bardsley's summer research project, resulting in a [publication](./publication/superplot/)
-- I taught a [statistics course](https://github.com/andrewfowlie/website/raw/master/content/home/tartu_stats.pdf) at Tartu University 
+- I taught a [statistics course](https://github.com/andrewfowlie/website/raw/master/content/home/stats_tartu.pdf) at Tartu University 
 
