@@ -11,12 +11,16 @@ selected = false
 math = true
 
 url_pdf = "https://arxiv.org/pdf/1111.6098"
-url_slides = "https://github.com/andrewfowlie/website/raw/master/content/talk/yeti.pdf"
+url_slides = ""
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
 # image = "max_ent_web.jpg"
 # caption = "Maximum entropy trajector of dark matter velocity distribution"
+
+[[url_custom]]
+name = "Poster"
+url = "https://github.com/andrewfowlie/website/raw/master/content/talk/yeti.pdf"
 
 +++
