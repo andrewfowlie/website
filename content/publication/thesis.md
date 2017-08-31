@@ -14,7 +14,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = ""
 url_project = ""
-url_slides = ""
+url_slides = "../talk/sheffield/"
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
