@@ -2,14 +2,14 @@ baseurl = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing 
 title = "Andrew Fowlie"
 copyright = "&copy; 2017 Andrew Fowlie"
 theme = "academic"
-enableEmoji = true
+enableEmoji = false
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+# disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-105692395-1"
+# googleAnalytics = "UA-105692395-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -30,7 +30,7 @@ defaultContentLanguageInSubdir = false
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "888 888 88 88"
   # skype = "echo123"
-  telegram = ""
+  # telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -76,8 +76,8 @@ defaultContentLanguageInSubdir = false
   #
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
-  highlight = true
-  highlight_languages = []
+  highlight = false
+  # highlight_languages = []
   # highlight_style = "github"
   # highlight_version = "9.9.0"
 
@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["color.css"]
+  custom_css = []
   custom_js  = []
 
   # Publication types.
