@@ -24,6 +24,6 @@ url_video = ""
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "max_ent_web.png"
-caption = "Maximum entropy trajector of dark matter velocity distribution"
+caption = "Maximum entropy trajectory of dark matter velocity distribution"
 
 +++

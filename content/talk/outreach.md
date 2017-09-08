@@ -4,7 +4,7 @@ title = "LHC and beyond in 10 minutes: A quick tour"
 abstract = ""
 abstract_short = ""
 event = "Outreach Activity"
-event_url = "http://hepwww.rl.ac.uk/accel/forum/2012/about.html"
+event_url = ""
 location = "Monash University"
 
 selected = false
