@@ -6,7 +6,7 @@ date = "2017-08-01"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "JCAP"
+publication = "JCAP 1710 (2017) no.10, 002"
 publication_short = ""
 selected = true
 title = "Halo-independence with quantified maximum entropy at DAMA/LIBRA"
@@ -14,12 +14,12 @@ url_code = ""
 url_dataset = ""
 url_pdf = "https://arxiv.org/pdf/1708.00181"
 url_project = ""
-url_slides = "http://research.ipmu.jp/seminar/?seminar_id=1943"
+url_slides = "../talk/dm_ipmu"
 url_video = ""
 
-# [[url_custom]]
-# name = "Custom Link"
-# url = "http://www.example.org"
+[[url_custom]]
+name = "DOI"
+url = "http://dx.doi.org/10.1088/1475-7516/2017/10/002"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
