@@ -14,7 +14,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "http://arxiv.org/pdf/1607.06608.pdf"
 url_project = ""
-url_slides = ""
+url_slides = "../talk/bayes_factor"
 url_video = ""
 
 [[url_custom]]
