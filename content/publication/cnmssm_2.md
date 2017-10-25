@@ -7,7 +7,7 @@ date = "2017-09-22"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = ""
+publication = "JHEP10 (2017) 160"
 publication_short = ""
 selected = true
 title = "Bayesian analysis and naturalness of (Next-to-)Minimal Supersymmetric  Models"
@@ -18,9 +18,9 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-# [[url_custom]]
-# name = "DOI"
-# url = ""
+[[url_custom]]
+name = "DOI"
+url = "https://doi.org/10.1007/JHEP10(2017)160"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
