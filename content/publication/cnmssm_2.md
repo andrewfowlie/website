@@ -15,7 +15,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "http://arxiv.org/pdf/1709.07895"
 url_project = ""
-url_slides = ""
+url_slides = "../talk/susy_bayes"
 url_video = ""
 
 [[url_custom]]
