@@ -16,3 +16,4 @@ autolink = true
 
 +++
 
+If you are looking to do a Masters or PhD, I am afraid that I don't have any openings but I advise you to see [inspire](http://inspirehep.net/collection/Jobs) for many opportunities.

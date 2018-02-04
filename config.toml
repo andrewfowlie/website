@@ -27,6 +27,7 @@ defaultContentLanguageInSubdir = false
   avatar = "pMAqUYzR_400x400.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "Andrew.Fowlie@Monash.Edu"
   address = "Monash University, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
+  twitter = 'fowlimon'
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "888 888 88 88"
   # skype = "echo123"
@@ -133,11 +134,6 @@ defaultContentLanguageInSubdir = false
     icon = "twitter"
     icon_pack = "fa"
     link = "https://twitter.com/fowlimon"
-
-  # [[params.social]]
-  #   icon = "arxiv"
-  #   icon_pack = "ai"
-  #   link = "https://arxiv.org/find/hep-ph/1/au:+Fowlie_A/0/1/0/all/0/1"
   
   [[params.social]]
      icon = "stack-exchange"
@@ -153,6 +149,11 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/andrewfowlie"
+
+  [[params.social]]
+    icon = "arxiv"
+    icon_pack = "ai"
+    link = "https://arxiv.org/find/hep-ph/1/au:+Fowlie_A/0/1/0/all/0/1"
 
   [[params.social]]
      icon = "inspire"
