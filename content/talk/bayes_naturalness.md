@@ -1,7 +1,6 @@
 +++
-date = "2016-11-24T00:00:00"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+time_start = 2016-11-24T00:00:00
+time_end = 2016-11-24T00:00:00
 title = "Bayesian approach to naturalness"
 abstract = "I argue that traditional fine-tuning and naturalness arguments in physics originate from Bayesian statistics, including an overview of pertinent aspects of Bayesian statistics and examples."
 abstract_short = "I argue that traditional fine-tuning and naturalness arguments in physics originate from Bayesian statistics."

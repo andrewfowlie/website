@@ -1,7 +1,6 @@
 +++
-date = "2012-10-01T00:00:00"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+time_start = 2012-10-01T00:00:00
+time_end = 2012-10-01T00:00:00
 title = "The CMSSM after 2 years of the LHC"
 abstract = ""
 abstract_short = ""

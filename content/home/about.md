@@ -8,7 +8,7 @@ active = true
 widget = "about"
 
 # Order that this section will appear in.
-weight = 1
+weight = 2
 
 # List your academic interests.
 [interests]

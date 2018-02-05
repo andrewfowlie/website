@@ -1,7 +1,6 @@
 +++
-date = "2016-05-07T00:00:00"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+time_start = 2016-05-07T00:00:00
+time_end = 2016-05-07T00:00:00
 title = "Bayesian naturalness of Next-to-Minimal and Minimal Supersymmetric Models"
 abstract = "The discovery of a 125 GeV Higgs-like boson and null results in searches for new physics at the LHC have lead to renewed interest in next-to-minimal supersymmetric models and doubts about traditional measures of fine-tuning in supersymmetric models. We investigate fine-tuning in next-to-minimal and minimal supersymmetric models with Bayesian statistics by picking non-informative priors for superpotential and soft-breaking parameters (in contrast to informative priors for e.g., $M_Z$ and $\\tan\\beta$) which, we argue, underpin fine-tuning arguments in supersymmetric models. Furthermore, we contrast our Bayesian analyses with traditional fine-tuning measures based upon derivatives of the $Z$-boson mass, including high- and low-scale measures, highlighting deficiencies in traditional fine-tuning measures."
 abstract_short = "The discovery of a 125 GeV Higgs-like boson and null results in searches for new physics at the LHC have lead to renewed interest in next-to-minimal supersymmetric models and doubts about traditional measures of fine-tuning in supersymmetric models. We investigate fine-tuning in next-to-minimal and minimal supersymmetric models with Bayesian statistics."

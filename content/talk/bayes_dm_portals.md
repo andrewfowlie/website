@@ -1,7 +1,6 @@
 +++
-date = "2017-11-30T00:00:00"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+time_start = 2017-11-30T00:00:00
+time_end = 2017-11-30T00:00:00
 title = "Relative plausibility of scientific theories: WIMP dark matter"
 abstract = "I discuss how one can use Bayesian statistics to judge scientific theories, showing that an automatic Occam's razor penalises fine-tuned theories without additional or ad hoc principles. With weakly interacting massive particle (WIMP) dark matter as an example, I demonstrate that we can calculate the changes in relative plausibility of theories in light of data for theories and data of real interest in fundamental physics. We find that concerns about the viability of WIMP dark matter in light of failed experimental searches are premature."
 event = "A Fractured Universe? Fundamental Physics, Symmetry and Life"

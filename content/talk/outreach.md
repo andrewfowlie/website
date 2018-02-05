@@ -1,7 +1,6 @@
 +++
-date = "2015-12-01T00:00:00"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+time_start = 2015-12-01T00:00:00
+time_end = 2015-12-01T00:00:00
 title = "LHC and beyond in 10 minutes: A quick tour"
 abstract = ""
 abstract_short = ""

@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = false
   role = "Post-doctoral researcher in high-energy physics"
   organizations = [{ name="Monash University", url="https://www.monash.edu/"}]
   gravatar = false  
-  avatar = "pMAqUYzR_400x400.jpg"  # Specify an avatar image (in `static/img/` folder)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder)
   email = "Andrew.Fowlie@Monash.Edu"
   address = "Monash University, Office 122, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
   twitter = 'fowlimon'
@@ -82,6 +82,16 @@ defaultContentLanguageInSubdir = false
     'Book chapter',  # 6
     'Thesis'  # 7
   ]
+
+  [params.talks]
+    time = false
+
+  [params.publications]
+    date_format = "January, 2006"    
+
+  [params.projects]
+    list_children = true
+    publication_format = 3
 
   # Social/Academic Networking
 
@@ -131,26 +141,31 @@ defaultContentLanguageInSubdir = false
   name = "Talks"
   url = "#talks"
   weight = 3
+  
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
 [[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 4
+  weight = 5
   
 [[menu.main]]
   name = "Outreach"
   url = "#outreach"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "CV"
   url = "#cv"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "Contact me"
   url = "#contact"
-  weight = 7
+  weight = 8
 
 # Taxonomies
 
