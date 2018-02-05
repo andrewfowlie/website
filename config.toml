@@ -1,101 +1,77 @@
+# Andrew Fowlie's academic webpage
+
+# Webpage settings
+
 baseurl = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing slash.
 title = "Andrew Fowlie"
-copyright = "&copy; 2017 Andrew Fowlie"
+copyright = "&copy; 2018 Andrew Fowlie"
 theme = "academic"
 enableEmoji = false
 footnotereturnlinkcontents = "<sup>^</sup>"
-
-# Enable comments by entering your Disqus shortname
-# disqusShortname = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-105692395-1"
-
-# Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[outputs]
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
+
+# BlackFriday Markdown rendering - https://gohugo.io/readfiles/bfconfig/
+
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
+
+  # Webpage theme
+
+  color_theme = "fowlie"
+  font = "classic"
+
+  # Personal details
+
   name = "Andrew Fowlie"
   role = "Post-doctoral researcher in high-energy physics"
-  organization = "Monash University"
-  organization_url = "https://www.monash.edu/"
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "pMAqUYzR_400x400.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  organizations = [{ name="Monash University", url="https://www.monash.edu/"}]
+  gravatar = false  
+  avatar = "pMAqUYzR_400x400.jpg"  # Specify an avatar image (in `static/img/` folder)
   email = "Andrew.Fowlie@Monash.Edu"
-  address = "Monash University, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
+  address = "Monash University, Office 122, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
   twitter = 'fowlimon'
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  # phone = "888 888 88 88"
-  # skype = "echo123"
-  # telegram = ""
+  
+  # Google maps
+  
+  map = 1
+  map_api_key = "AIzaSyCAUgGv4Oa4rWScBnFxv0BwYVoFQfo1ML4"
+  latitude = "-37.910182" 
+  longitude = "145.130746"
+  zoom = 17
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = ""
-
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  # Date format
+  
   date_format = "Mon, Jan 2, 2006"
 
-  # Enable global LaTeX math rendering?
-  #   If false, you can enable it locally on a per page basis.
+  # LaTeX math rendering
+
   math = true
 
-  # Highlight.js options
-  #   highlight
-  #     Enable global source code highlighting?  If false, you can
-  #     override it for a particular page in that page's preamble.
-  #
-  #     Example: highlight = true
-  #
-  #   highlight_languages
-  #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages. You
-  #     can also set this variable for a particular page in that
-  #     page's preamble.
-  #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
-  #
-  #   highlight_style
-  #     Choose a different CSS style for highlighting source
-  #     code. Setting this option in a page's preamble has no
-  #     effect.
-  #
-  #     Example: highlight_style = "github-gist"
-  #
-  #   highlight_version
-  #     Choose the version of highlight.js you want. Setting this
-  #     option in a page's preamble has no effect.
-  #
-  #     Example: highlight_version = "9.9.0"
-  #
-  #   For the list of supported languages, styles, and versions, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
-  highlight = false
-  # highlight_languages = []
-  # highlight_style = "github"
-  # highlight_version = "9.9.0"
+  # Code highlights
 
-  # Enable native social sharing buttons?
+  highlight = false
+  
+  # Native social sharing buttons
+  
   sharing = true
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
+  # Custom CSS and JS assets
+
   custom_css = []
   custom_js  = []
 
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
-  #   The language can be edited below.
-  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  # Publication types
+
   publication_types = [
     'Uncategorized',  # 0
     'Conference proceedings',  # 1
@@ -108,22 +84,6 @@ defaultContentLanguageInSubdir = false
   ]
 
   # Social/Academic Networking
-  #
-  # Icon pack "fa" includes the following social network icons:
-  #
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
-  #
-  #   For email icon, use "fa" icon pack, "envelope" icon, and
-  #   "mailto:your@email.com" as the link.
-  #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-  #
-  # Icon pack "ai" includes the following academic network icons:
-  #
-  #   google-scholar, arxiv, orcid, researchgate, mendeley
-  #
-  #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
     icon = "envelope"
@@ -139,11 +99,6 @@ defaultContentLanguageInSubdir = false
      icon = "stack-exchange"
      icon_pack = "fa"
      link = "https://physics.stackexchange.com/users/23389/innisfree?tab=profile"
-
-  # [[params.social]]
-  #  icon = "google-scholar"
-  #  icon_pack = "ai"
-  #  link = "https://scholar.google.com.au/citations?user=tNlsYIUAAAAJ&hl=en&oi=sra"
 
   [[params.social]]
     icon = "github"
@@ -161,9 +116,6 @@ defaultContentLanguageInSubdir = false
      link = "http://inspirehep.net/author/profile/A.Fowlie.1"
 
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
   name = "Home"
@@ -174,16 +126,6 @@ defaultContentLanguageInSubdir = false
   name = "Publications"
   url = "#publications_selected"
   weight = 2
-
-# [[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
-
-# [[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 4
 
 [[menu.main]]
   name = "Talks"
@@ -210,15 +152,14 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 7
 
-# Taxonomies.
+# Taxonomies
+
 [taxonomies]
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
 
 # Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
 
-# Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
