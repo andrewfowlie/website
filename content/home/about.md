@@ -3,6 +3,7 @@
 
 date = "2016-04-20T00:00:00"
 draft = false
+active = true
 
 widget = "about"
 
@@ -29,6 +30,13 @@ weight = 1
   course = "MPhys in Physics"
   institution = "Durham University"
   year = 2009
+ 
+# Overlay a color or image (optional).
+#   Deactivate an option by commenting out the line, prefixing it with `#`.
+[header]
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "6727193557_2f591a9113_o.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
  
 +++
 

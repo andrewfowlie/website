@@ -4,7 +4,7 @@
 
 baseurl = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing slash.
 title = "Andrew Fowlie"
-copyright = "&copy; 2018 Andrew Fowlie"
+copyright = "&copy; 2018 Andrew Fowlie. Image from [starsandspirals](https://www.flickr.com/photos/becca02/6727193557) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/)"
 theme = "academic"
 enableEmoji = false
 footnotereturnlinkcontents = "<sup>^</sup>"
