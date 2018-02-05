@@ -1,5 +1,7 @@
 +++
 date = "2016-11-24T00:00:00"
+time_start = 2030-06-01T13:00:00
+time_end = 2030-06-01T15:00:00
 title = "Bayesian approach to naturalness"
 abstract = "I argue that traditional fine-tuning and naturalness arguments in physics originate from Bayesian statistics, including an overview of pertinent aspects of Bayesian statistics and examples."
 abstract_short = "I argue that traditional fine-tuning and naturalness arguments in physics originate from Bayesian statistics."
@@ -14,9 +16,6 @@ url_pdf = ""
 url_slides = "http://www.physics.usyd.edu.au/~luke/2016FTConf/talks/2_1_Fowlie.pdf"
 url_video = ""
 
-# Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "max_ent_web.jpg"
-# caption = "Maximum entropy trajector of dark matter velocity distribution"
+[header]
 
 +++

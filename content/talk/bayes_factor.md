@@ -1,5 +1,7 @@
 +++
 date = "2017-09-30T00:00:00"
+time_start = 2030-06-01T13:00:00
+time_end = 2030-06-01T15:00:00
 title = "Using Bayes factors to understand anomalies at the LHC"
 abstract = "In light of recent controversy about $p$-values, I discuss Bayes factors and their potential application in particle physics at the LHC. I calculate Bayes factors for the 750 GeV anaomaly as an example. "
 abstract_short = ""
@@ -14,9 +16,6 @@ url_pdf = "https://arxiv.org/abs/1607.06608"
 url_slides = "https://github.com/andrewfowlie/website/raw/master/content/talk/bayes_factor.pdf"
 url_video = ""
 
-# Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "max_ent_web.jpg"
-# caption = "Maximum entropy trajector of dark matter velocity distribution"
+[header]
 
 +++

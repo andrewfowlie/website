@@ -1,5 +1,7 @@
 +++
 date = "2011-12-13T00:00:00"
+time_start = 2030-06-01T13:00:00
+time_end = 2030-06-01T15:00:00
 title = "Bayesian Implications of Current LHC Limits for the Constrained MSSM"
 abstract = "I explain how we identify the regions of the Constrained Minimal Supersymmetric Standard Model's parameter space that are in best agreement with experimental data, using Bayesian statistics. I show how we construct likelihood functions for experimental constraints, including the latest LHC 1/fb results. I present our probability maps on the (m0, m12) plane of the CMSSM, with and without the latest LHC 1/fb results."
 abstract_short = "I explain how we identify the regions of the Constrained Minimal Supersymmetric Standard Model's parameter space that are in best agreement with experimental data, using Bayesian statistics."
@@ -14,9 +16,6 @@ url_pdf = "https://arxiv.org/pdf/1111.6098"
 url_slides = "https://github.com/andrewfowlie/website/raw/master/content/talk/ytf.pdf"
 url_video = ""
 
-# Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "max_ent_web.jpg"
-# caption = "Maximum entropy trajector of dark matter velocity distribution"
+[header]
 
 +++

@@ -1,5 +1,7 @@
 +++
 date = "2012-01-10T00:00:00"
+time_start = 2030-06-01T13:00:00
+time_end = 2030-06-01T15:00:00
 title = "Bayesian Implications of Current LHC and XENON100 Search Limits for the Constrained MSSM"
 abstract = ""
 abstract_short = ""
@@ -14,10 +16,7 @@ url_pdf = "https://arxiv.org/pdf/1111.6098"
 url_slides = ""
 url_video = ""
 
-# Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "max_ent_web.jpg"
-# caption = "Maximum entropy trajector of dark matter velocity distribution"
+[header]
 
 [[url_custom]]
 name = "Poster"

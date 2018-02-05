@@ -1,5 +1,7 @@
 +++
 date = "2012-11-22T00:00:00"
+time_start = 2030-06-01T13:00:00
+time_end = 2030-06-01T15:00:00
 title = "The CMSSM Favoring New Territories: The Impact of New LHC Limits and a 125 GeV Higgs"
 abstract = ""
 abstract_short = ""
@@ -14,10 +16,7 @@ url_pdf = "https://arxiv.org/pdf/1206.0264"
 url_slides = ""
 url_video = ""
 
-# Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "max_ent_web.jpg"
-# caption = "Maximum entropy trajector of dark matter velocity distribution"
+[header]
 
 [[url_custom]]
 name = "Poster"
