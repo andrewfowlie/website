@@ -33,17 +33,17 @@ filter_default = 0
   name = "All"
   tag = "*"
 
-# [[filter]]
-#   name = "Bayesian statistics"
-#   tag = ".bayesian"
+[[filter]]
+  name = "Bayesian statistics"
+  tag = ".bayesian"
   
-# [[filter]]
-#   name = "Bayes factors"
-#   tag = ".bayes-factors"
+[[filter]]
+  name = "Bayes factors"
+  tag = ".bayes-factors"
 
-# [[filter]]
-#   name = "supersymmetry"
-#   tag = ".susy"
+[[filter]]
+  name = "supersymmetry"
+  tag = ".susy"
   
 # [[filter]]
 #   name = "LHC"
@@ -53,13 +53,21 @@ filter_default = 0
   name = "GAMBIT"
   tag = ".gambit"
   
-# [[filter]]
-#   name = "dark matter"
-#   tag = ".dm"
+[[filter]]
+  name = "dark matter"
+  tag = ".dm"
 
 [[filter]]
   name = "global fits"
   tag = ".fits"
+  
+[[filter]]
+  name = "fine-tuning"
+  tag = ".tuning"
+  
+[[filter]]
+  name = "new physics"
+  tag = ".np"
 
 +++
 
