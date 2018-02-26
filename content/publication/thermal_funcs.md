@@ -18,7 +18,7 @@ url_slides = ""
 url_video = ""
 
 # [[url_custom]]
-# name = "DOI"
-# url = ""
+name = "DOI"
+url = "https://doi.org/10.1016/j.cpc.2018.02.015"
 +++
 
