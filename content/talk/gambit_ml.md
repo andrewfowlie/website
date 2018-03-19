@@ -11,7 +11,7 @@ selected = false
 math = false
 
 url_pdf = ""
-url_slides = ""
+url_slides = "https://github.com/andrewfowlie/website/raw/master/content/talk/gambit_ml.pdf"
 url_video = ""
 
 [header]
