@@ -13,7 +13,7 @@ image_preview = "logo_small.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["gambit", "fits"]
+tags = ["gambit", "fits", "np"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://gambit.hepforge.org/"

@@ -13,7 +13,7 @@ image_preview = "image.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["susy", "fits"]
+tags = ["susy", "fits", "np"]
 
 # Does the project detail page use math formatting?
 math = false

@@ -11,7 +11,7 @@ selected = false
 math = false
 
 url_pdf = "https://arxiv.org/abs/1711.09912"
-url_slides = ""
+url_slides = "https://github.com/andrewfowlie/website/raw/master/content/talk/nanjing_2018.pdf"
 url_video = ""
 
 [header]

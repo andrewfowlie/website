@@ -11,7 +11,7 @@ selected = true
 math = false
 
 url_pdf = "https://arxiv.org/abs/1711.09912"
-url_slides = ""
+url_slides = "https://indico.cern.ch/event/686555/contributions/2970906/attachments/1681566/2701791/ICHEP2018.pdf"
 url_video = ""
 
 [header]
