@@ -33,24 +33,24 @@ defaultContentLanguageInSubdir = false
   # Personal details
 
   name = "Andrew Fowlie"
-  role = "Post-doctoral researcher in high-energy physics"
-  organizations = [{ name="Monash University", url="https://www.monash.edu/"}]
-  gravatar = false  
+  role = "Researcher in high-energy physics"
+  # organizations = [{ name="Monash University", url="https://www.monash.edu/"}]
+  gravatar = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder)
-  email = "Andrew.Fowlie@Monash.Edu"
-  address = "Monash University, Office 122, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
+  email = "Andrew.J.Fowlie@qq.com"
+  # address = "Monash University, Office 122, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
   twitter = 'fowlimon'
-  
+
   # Google maps
-  
-  map = 1
-  map_api_key = "AIzaSyCAUgGv4Oa4rWScBnFxv0BwYVoFQfo1ML4"
-  latitude = "-37.910182" 
-  longitude = "145.130746"
-  zoom = 17
+
+  # map = 1
+  # map_api_key = "AIzaSyCAUgGv4Oa4rWScBnFxv0BwYVoFQfo1ML4"
+  # latitude = "-37.910182"
+  # longitude = "145.130746"
+  # zoom = 17
 
   # Date format
-  
+
   date_format = "Mon, Jan 2, 2006"
 
   # LaTeX math rendering
@@ -60,9 +60,9 @@ defaultContentLanguageInSubdir = false
   # Code highlights
 
   highlight = false
-  
+
   # Native social sharing buttons
-  
+
   sharing = true
 
   # Custom CSS and JS assets
@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = false
     time = false
 
   [params.publications]
-    date_format = "January, 2006"    
+    date_format = "January, 2006"
 
   [params.projects]
     list_children = true
@@ -98,13 +98,13 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:andrew.fowlie@monash.edu"
+    link = "mailto:andrew.j.fowlie@qq.com"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "https://twitter.com/fowlimon"
-  
+
   [[params.social]]
      icon = "stack-exchange"
      icon_pack = "fa"
@@ -141,7 +141,7 @@ defaultContentLanguageInSubdir = false
   name = "Talks"
   url = "#talks"
   weight = 3
-  
+
 [[menu.main]]
   name = "Projects"
   url = "#projects"
@@ -151,7 +151,7 @@ defaultContentLanguageInSubdir = false
   name = "Teaching"
   url = "#teaching"
   weight = 5
-  
+
 [[menu.main]]
   name = "Outreach"
   url = "#outreach"
