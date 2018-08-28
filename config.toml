@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
 
   # Webpage theme
 
-  color_theme = "fowlie"
+  color_theme = "default"
   font = "classic"
 
   # Personal details
