@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "../talk/iop_susy/"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1103/PhysRevD.86.075010"
+doi = "10.1103/PhysRevD.86.075010"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

@@ -17,9 +17,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1016/j.nima.2017.05.001"
+doi = "10.1016/j.nima.2017.05.001"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

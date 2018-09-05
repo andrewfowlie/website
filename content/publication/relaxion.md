@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "https://indico.cern.ch/event/491882/contributions/2306104/attachments/1375199/2087902/relaxion.pdf"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1007/JHEP08(2016)100"
+doi = "10.1007/JHEP08(2016)100"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

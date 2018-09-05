@@ -18,9 +18,7 @@ url_project = ""
 url_slides = "../talk/susy_bayes"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "https://doi.org/10.1007/JHEP10(2017)160"
+doi = "10.1007/JHEP10(2017)160"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

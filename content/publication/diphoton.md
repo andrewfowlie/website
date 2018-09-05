@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "../talk/bayes_factor"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1140/epjp/i2017-11340-1"
+doi = "10.1140/epjp/i2017-11340-1"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

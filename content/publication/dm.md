@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "../talk/dm_ipmu"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1088/1475-7516/2017/10/002"
+doi = "10.1088/1475-7516/2017/10/002"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

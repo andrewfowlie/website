@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "../talk/ytf/"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1103/PhysRevD.85.075012"
+doi = "10.1103/PhysRevD.85.075012"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

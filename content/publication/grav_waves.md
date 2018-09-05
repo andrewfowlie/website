@@ -17,9 +17,7 @@ url_project = ""
 url_slides = "https://indico.cern.ch/event/607328/contributions/2447344/attachments/1416309/2168557/GWs_SMSS.pptm"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1103/PhysRevD.95.043505"
+doi = "10.1103/PhysRevD.95.043505"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

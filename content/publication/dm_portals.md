@@ -17,8 +17,6 @@ url_project = ""
 url_slides = "../talk/bayes_dm_portals"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "https://doi.org/10.1103/PhysRevD.97.115014"
+doi = "10.1103/PhysRevD.97.115014"
 +++
 

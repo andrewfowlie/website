@@ -17,8 +17,6 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "https://doi.org/10.1016/j.cpc.2018.02.015"
+doi = "10.1016/j.cpc.2018.02.015"
 +++
 

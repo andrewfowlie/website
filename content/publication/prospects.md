@@ -17,8 +17,6 @@ url_project = ""
 url_slides = "../talk/dis_bayes/"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1140/epjc/s10052-014-2948-6"
+doi = "10.1140/epjc/s10052-014-2948-6"
 +++
 

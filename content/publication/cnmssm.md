@@ -18,8 +18,6 @@ url_project = ""
 url_slides = "../talk/tallinn_2"
 url_video = ""
 
-[[url_custom]]
-name = "DOI"
-url = "http://dx.doi.org/10.1140/epjc/s10052-014-3105-y"
+doi = "10.1140/epjc/s10052-014-3105-y"
 +++
 
