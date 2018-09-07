@@ -16,4 +16,6 @@ autolink = true
 
 +++
 
-If you are looking to do a Masters or PhD, I am afraid that I don't have any openings but I advise you to see [inspire](http://inspirehep.net/collection/Jobs) for many opportunities.
+If you are looking for a Masters or PhD position, I am afraid that I don't have any openings but I advise you to see [inspire](http://inspirehep.net/collection/Jobs) for many opportunities.
+
+Please feel free to contact me about anything related to my papers, refereeing or speaking at a workshop or conference.
