@@ -22,7 +22,7 @@ math = false
 
 
 Direct detection experiments search for dark matter in interactions with detectors on earth. The relative velocity of dark matter with respect to the detectors is,
-however, unknown. In [[1]](/publication/max_ent_1), we pioneered the use of Quantified Maximum Entropy to model the uncertainty in the velocity distribution and applied it to DAMA/LIBRA. In [[2]](/publication/max_ent_1) we developed a novel numerical approximation and applied it to XENON1T.
+however, unknown. In [[1]](/publication/max_ent_1), we pioneered the use of Quantified Maximum Entropy (see e.g., [Skilling](https://link.springer.com/chapter/10.1007/978-94-009-0683-9_21)) to model the uncertainty in the velocity distribution and applied it to DAMA/LIBRA. In [[2]](/publication/max_ent_1) we developed a novel numerical approximation and applied it to XENON1T.
 
 In both works, we constructed an entropic prior for the velocity distribution,
 $$

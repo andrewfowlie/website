@@ -20,7 +20,7 @@ math = false
 
 +++
 
-Anomalies in high-energy physics are almost always judged by (global) $p$-values and significances. I propose that we instead judge anomalies using so-called Bayes factors. I applied this to [indirect searches for dark matter by DAMPE](/publication/dampe_significance) and the [750 GeV diphoton excess](/publication/diphoton). 
+Anomalies in high-energy physics are almost always judged by (global) $p$-values and significances. I propose that we instead judge anomalies using so-called Bayes factors. I applied this to [indirect searches for dark matter by DAMPE](/publication/dampe_significance) and the [750 GeV diphoton excess](/publication/diphoton).
 
 Summarising [Berger et al, 2001](http://www.jstor.org/stable/4356165?seq=1#page_scan_tab_contents),
 
@@ -33,9 +33,11 @@ $$
 \text{BF} = \frac{\text{Evidence for model $A$}}{\text{Evidence for model $B$}},
 $$
 where an evidence is the probability of our observed data given a particular model. Bayes factors
-update our relative belief in models in light of experimental data, 
+update our relative belief in models in light of experimental data,
 $$
 \text{Relative belief after data} = \text{BF} \times \text{Relative belief before data}.
 $$
-For example, a Bayes factor of ten in favour of model $A$ means that it is ten times more 
+For example, a Bayes factor of ten in favour of model $A$ means that it is ten times more
 plausible relative to model $B$ than it was before our experiment.
+
+There are many interesting discussions about the merits of Bayes factors at [Bayesian Spectacles](https://www.bayesianspectacles.org/). For an early discussion, see [Rozeboom, 1960](stats.org.uk/statistical-inference/Rozeboom1960.pdf).
