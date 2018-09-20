@@ -26,7 +26,12 @@ math = false
 * [Preskill](http://www.theory.caltech.edu/~preskill/notes.html), collection of handwritten lecture notes
 * [Tong](http://www.damtp.cam.ac.uk/user/tong/teaching.html), lecture notes
 * [Geroch](http://home.uchicago.edu/~geroch/), collection of handwritten lecture notes and problems
-
+* [Feynman](http://www.feynmanlectures.caltech.edu/), The Feynman lectures on Physics
+* [Poincaré](https://www.gutenberg.org/ebooks/37157), Science and hypothesis
+* [Einstein](https://www.gutenberg.org/ebooks/30155), Relativity: The Special and General Theory
+* [Einstein](https://www.gutenberg.org/ebooks/36276), The Einstein Theory of Relativity
+* [Lorentz](https://www.gutenberg.org/ebooks/11335), The Einstein Theory of Relativity
+* [Newton](https://www.gutenberg.org/ebooks/28233), Philosophiae Naturalis Principia Mathematica
 
 ## Particle physics
 
@@ -36,6 +41,7 @@ math = false
 * [[hep-ph/0001283]](http://arxiv.org/abs/hep-ph/0001283) Standard Model: An Introduction
 * [[hep-ph/9402266]](http://arxiv.org/abs/hep-ph/9402266) Grand Unified Theories and Supersymmetry in Particle Physics and Cosmology
 * [TASI Lectures](http://inspirehep.net/search?ln=en&p=find+t+tasi&of=hb&action_search=Search)
+* [Thomson](https://www.hep.phy.cam.ac.uk/~thomson/partIIIparticles/welcome.html), Particle Physics
 
 ##  LHC
 
