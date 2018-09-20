@@ -30,9 +30,8 @@ math = false
 
 ## Particle physics
 
-* [[0810.3328]](http://arxiv.org/abs/0810.3328) A Simple Introduction to Particle Physics)
-* [[0908.1395]](http://arxiv.org/abs/0908.1395) A Simple Introduction to Particle Physics Part II)
-* [[1110.5013]](http://arxiv.org/abs/1110.5013) Notes from Sidney Coleman's Physics 253a)
+* [[0810.3328]](http://arxiv.org/abs/0810.3328) A Simple Introduction to Particle Physics
+* [[0908.1395]](http://arxiv.org/abs/0908.1395) A Simple Introduction to Particle Physics Part II
 * [Tong](http://www.damtp.cam.ac.uk/user/dt281/teaching.html), Lectures on Theoretical Physics
 * [[hep-ph/0001283]](http://arxiv.org/abs/hep-ph/0001283) Standard Model: An Introduction
 * [[hep-ph/9402266]](http://arxiv.org/abs/hep-ph/9402266) Grand Unified Theories and Supersymmetry in Particle Physics and Cosmology
@@ -40,6 +39,6 @@ math = false
 
 ##  LHC
 
-* [[0810.2281]](http://arxiv.org/abs/0810.2281) LHC Phenomenology for Physics Hunters)
-* [[0910.4182]](http://arxiv.org/abs/0910.4182) Lectures on LHC Physics)
-* [[1004.5564](http://arxiv.org/abs/1004.5564)] Introduction to the LHC experiments)
+* [[0810.2281]](http://arxiv.org/abs/0810.2281) LHC Phenomenology for Physics Hunters
+* [[0910.4182]](http://arxiv.org/abs/0910.4182) Lectures on LHC Physics
+* [[1004.5564](http://arxiv.org/abs/1004.5564)] Introduction to the LHC experiments

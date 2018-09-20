@@ -27,7 +27,8 @@ math = false
 * [Srednicki](http://web.physics.ucsb.edu/~mark/qft.html), Quantum Field Theory
 * [Luty](http://www.physics.umd.edu/courses/Phys851/Luty/notes.html), Physics 851 Notes
 * [[hep-th/9912205]](http://arxiv.org/abs/hep-th/9912205) Fields
-* [Coleman](https://www.physics.harvard.edu/events/videos), Video Lectures
+* [Coleman](https://www.physics.harvard.edu/events/videos), Video Lectures for Physics 253a
+* [[1110.5013]](http://arxiv.org/abs/1110.5013) Notes from Sidney Coleman's Physics 253a
 * [Serone](www.sissa.it/tpp/phdsection/download.php?ID=1&filename=QFT_Review_Aug_27_2018.pdf), Notes on Quantum Field Theory
 * [Bourjaily](http://www-personal.umich.edu/~jbourj/peskin/homework%201-7.pdf), Symmetry factors
 * [[0607239]](http://arxiv.org/abs/hep-th/0607239) Topics in particle physics and cosmology beyond the standard model
