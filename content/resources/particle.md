@@ -29,7 +29,7 @@ math = false
 * [Feynman](http://www.feynmanlectures.caltech.edu/), The Feynman lectures on Physics
 * [Poincaré](https://www.gutenberg.org/ebooks/37157), Science and hypothesis
 * [Einstein](https://www.gutenberg.org/ebooks/30155), Relativity: The Special and General Theory
-* [Einstein](https://www.gutenberg.org/ebooks/36276), The Einstein Theory of Relativity
+* [Einstein](https://www.gutenberg.org/ebooks/36276), The Meaning of Relativity
 * [Lorentz](https://www.gutenberg.org/ebooks/11335), The Einstein Theory of Relativity
 * [Newton](https://www.gutenberg.org/ebooks/28233), Philosophiae Naturalis Principia Mathematica
 
