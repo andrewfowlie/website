@@ -4,8 +4,8 @@ widget = "projects"
 active = true
 date = "2016-04-20T00:00:00"
 
-title = "Projects"
-subtitle = "Ongoing and previous themes of my work"
+title = "Resources"
+subtitle = "Pedagogical articles and lecture notes"
 
 # Order that this section will appear in.
 weight = 6
@@ -13,7 +13,7 @@ weight = 6
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "project"
+folder = "resources"
 
 # View.
 # Customize how projects are displayed.
@@ -38,8 +38,8 @@ filter_default = 0
 #   tag = ".bayesian"
 
 # [[filter]]
-#   name = "Bayes factors"
-#   tag = ".bayes-factors"
+#   name = "Statistics"
+#   tag = ".statistics"
 
 # [[filter]]
 #   name = "supersymmetry"
@@ -56,16 +56,5 @@ filter_default = 0
 # [[filter]]
 #   name = "dark matter"
 #   tag = ".dm"
-
-# [[filter]]
-#   name = "global fits"
-#   tag = ".fits"
-
-# [[filter]]
-#   name = "fine-tuning"
-#   tag = ".tuning"
-
-# [[filter]]
-#   name = "new physics"
-#   tag = ".np"
 +++
+
