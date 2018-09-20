@@ -41,4 +41,4 @@ math = false
 
 * [[0810.2281]](http://arxiv.org/abs/0810.2281) LHC Phenomenology for Physics Hunters
 * [[0910.4182]](http://arxiv.org/abs/0910.4182) Lectures on LHC Physics
-* [[1004.5564](http://arxiv.org/abs/1004.5564)] Introduction to the LHC experiments
+* [[1004.5564]](http://arxiv.org/abs/1004.5564) Introduction to the LHC experiments
