@@ -8,8 +8,8 @@ title = "BayesFits (2009 - 2013)"
 # Project summary to display on homepage.
 summary = "Fits of SUSY models, such as the CMSSM, in light of LHC data."
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "image.png"
+[image]
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

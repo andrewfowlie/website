@@ -6,7 +6,7 @@ baseurl = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing 
 title = "Andrew Fowlie"
 copyright = "&copy; 2018 Andrew Fowlie. Image from [starsandspirals](https://www.flickr.com/photos/becca02/6727193557) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/)"
 theme = "academic"
-enableEmoji = false
+enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 googleAnalytics = "UA-105692395-1"
 defaultContentLanguage = "en"
@@ -22,6 +22,7 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+  extensions = ["backslashLineBreak"]
 
 [params]
 
@@ -52,6 +53,7 @@ defaultContentLanguageInSubdir = false
   # Date format
 
   date_format = "Mon, Jan 2, 2006"
+
 
   # LaTeX math rendering
 
@@ -97,22 +99,22 @@ defaultContentLanguageInSubdir = false
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:andrew.j.fowlie@qq.com"
 
   [[params.social]]
     icon = "twitter"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "https://twitter.com/fowlimon"
 
   [[params.social]]
      icon = "stack-exchange"
-     icon_pack = "fa"
+     icon_pack = "fab"
      link = "https://physics.stackexchange.com/users/23389/innisfree?tab=profile"
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/andrewfowlie"
 
   [[params.social]]

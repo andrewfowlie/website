@@ -8,8 +8,8 @@ title = "GAMBIT"
 # Project summary to display on homepage.
 summary = "I am a member of GAMBIT - The Global And Modular BSM Inference Tool - lead by Dr. Pat Scott."
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "logo_small.png"
+[image]
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

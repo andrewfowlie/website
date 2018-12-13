@@ -6,10 +6,11 @@ date = "2016-04-27"
 title = "Bayes factors"
 
 # Project summary to display on homepage.
-summary = 'Anomalies in high-energy physics with Bayes factors. (Image from [Bayesian spectacles](https://www.bayesianspectacles.org/library/) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/).)'
+summary = 'Anomalies in high-energy physics with Bayes factors'
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bayesian_magic.jpg"
+[image]
+  caption = "Image from [Bayesian spectacles](https://www.bayesianspectacles.org/library/) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/)"
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

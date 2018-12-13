@@ -6,7 +6,11 @@ date = "2016-04-27"
 title = "Particle physics"
 
 # Project summary to display on homepage.
-summary = "Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/d/da/Top_cot.jpg) under [public domain](https://commons.wikimedia.org/wiki/File:Top_cot.jpg)."
+summary = ""
+
+[image]
+  caption ="Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/d/da/Top_cot.jpg) under [public domain](https://commons.wikimedia.org/wiki/File:Top_cot.jpg)"
+  focal_point = "Smart"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "Top_cot.jpg"

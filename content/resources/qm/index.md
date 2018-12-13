@@ -6,10 +6,11 @@ date = "2016-04-27"
 title = "Quantum mechanics"
 
 # Project summary to display on homepage.
-summary = "Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Solvay_conference_1927.jpg/320px-Solvay_conference_1927.jpg) under [public domain](https://commons.wikimedia.org/wiki/File:Solvay_conference_1927.jpg)."
+summary = ""
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "320px-Solvay_conference_1927.jpg"
+[image]
+  caption ="Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Solvay_conference_1927.jpg/320px-Solvay_conference_1927.jpg) under [public domain](https://commons.wikimedia.org/wiki/File:Solvay_conference_1927.jpg)"
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

@@ -6,10 +6,11 @@ date = "2016-04-27"
 title = "Statistics"
 
 # Project summary to display on homepage.
-summary = "Image from [wiki](https://en.wikipedia.org/wiki/File:Fisher_iris_versicolor_sepalwidth.png) under [CC license](https://creativecommons.org/licenses/by-sa/3.0/)."
+summary = ""
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "Fisher_iris_versicolor_sepalwidth.png"
+[image]
+  caption ="Image from [wiki](https://en.wikipedia.org/wiki/File:Fisher_iris_versicolor_sepalwidth.png) under [CC license](https://creativecommons.org/licenses/by-sa/3.0/)"
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

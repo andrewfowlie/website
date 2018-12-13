@@ -6,10 +6,11 @@ date = "2016-04-27"
 title = "Dark matter"
 
 # Project summary to display on homepage.
-summary = "Image from [Hubble](http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/8593/compass_large_web.jpg) under [public domain](http://hubble.stsci.edu/about_us/copyright.php).  "
+summary = ""
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "compass_large_web.jpg"
+[image]
+  caption = "Image from [Hubble](http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/8593/compass_large_web.jpg) under [public domain](http://hubble.stsci.edu/about_us/copyright.php)"
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

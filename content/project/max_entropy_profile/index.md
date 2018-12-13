@@ -8,8 +8,8 @@ title = "Uncertainty in the Dark Matter Velocity Profile"
 # Project summary to display on homepage.
 summary = "Using Quantified Maximum Entropy to model uncertainty in the dark matter velocity profile."
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "max_ent_web.png"
+[image]
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

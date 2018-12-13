@@ -6,7 +6,11 @@ date = "2016-04-27"
 title = "Quantum Field Theory"
 
 # Project summary to display on homepage.
-summary = "Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/3/3b/Feynman%27sDiagram.JPG) under [CC license](https://creativecommons.org/licenses/by-sa/2.5/deed.en)."
+summary = ""
+
+[image]
+  caption ="Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/3/3b/Feynman%27sDiagram.JPG) under [CC license](https://creativecommons.org/licenses/by-sa/2.5/deed.en)"
+  focal_point = "Smart"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "Feynman'sDiagram.JPG"

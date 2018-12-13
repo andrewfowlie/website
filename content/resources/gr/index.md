@@ -6,10 +6,11 @@ date = "2016-04-27"
 title = "General relativity and Cosmology"
 
 # Project summary to display on homepage.
-summary = "Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Spacetime_lattice_analogy.svg/320px-Spacetime_lattice_analogy.svg.png) under [CC license](https://creativecommons.org/licenses/by-sa/3.0/deed.en)."
+summary = ""
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "320px-Spacetime_lattice_analogy.svg.png"
+[image]
+  caption ="Image from [wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Spacetime_lattice_analogy.svg/320px-Spacetime_lattice_analogy.svg.png) under [CC license](https://creativecommons.org/licenses/by-sa/3.0/deed.en)"
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

@@ -8,8 +8,8 @@ title = "Jaynes"
 # Project summary to display on homepage.
 summary = "Typset copies of unpublished works and links."
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bayes_again.png"
+[image]
+  focal_point = "Smart"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
