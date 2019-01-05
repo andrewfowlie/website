@@ -1,6 +1,5 @@
 +++
-time_start = 2012-11-22T00:00:00
-time_end = 2012-11-22T00:00:00
+date = 2012-11-22
 title = "The CMSSM Favoring New Territories: The Impact of New LHC Limits and a 125 GeV Higgs"
 abstract = ""
 abstract_short = ""

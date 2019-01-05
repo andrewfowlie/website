@@ -14,5 +14,5 @@ weight = 1
   overlay_img = "large.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 +++
-[<i class="fab fa-flickr"></i>](https://www.flickr.com/photos/becca02/6727193557) [<i class="fa fa-cc"></i>](https://creativecommons.org/licenses/by-sa/2.0/)
+[<i class="fab fa-flickr"></i>](https://www.flickr.com/photos/becca02/6727193557) [<i class="fab fa-creative-commons"></i>](https://creativecommons.org/licenses/by-sa/2.0/)
 

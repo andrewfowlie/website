@@ -1,6 +1,5 @@
 +++
-time_start = 2013-10-06T00:00:00
-time_end = 2013-10-06T00:00:00
+date = 2013-10-06
 title = "Bayesian Reconstruction of SUSY parameters at $\\sqrt{s} = 14\\,\\text{GeV}$ via the Golden Decay"
 abstract = ""
 abstract_short = ""

@@ -1,6 +1,5 @@
 +++
-time_start = 2014-01-01T00:00:00
-time_end = 2014-01-01T00:00:00
+date = 2014-01-01
 title = "Bayes vs chi-squared"
 abstract = ""
 abstract_short = ""

@@ -1,6 +1,5 @@
 +++
-time_start = 2016-11-01T00:00:00
-time_end = 2016-11-01T00:00:00
+date = 2016-11-01
 title = "The Jeffreys-Lindley's paradox"
 abstract = "Lindley's paradox is a difficulty reconciling two paradigms, Bayesian and frequentist statistics. Like in physics, paradoxes are useful for understanding foundations of a subject."
 abstract_short = "Lindley's paradox is a difficulty reconciling two paradigms, Bayesian and frequentist statistics. Like in physics, paradoxes are useful for understanding foundations of a subject."

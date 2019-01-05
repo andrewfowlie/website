@@ -1,6 +1,5 @@
 +++
-time_start = 2012-01-10T00:00:00
-time_end = 2012-01-10T00:00:00
+date = 2012-01-10
 title = "Bayesian Implications of Current LHC and XENON100 Search Limits for the Constrained MSSM"
 abstract = ""
 abstract_short = ""

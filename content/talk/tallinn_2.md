@@ -1,6 +1,5 @@
 +++
-time_start = 2014-09-23T00:00:00
-time_end = 2014-09-23T00:00:00
+date = 2014-09-23
 title = "CMSSM vs CNMSSM"
 abstract = ""
 abstract_short = ""

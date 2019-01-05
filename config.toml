@@ -35,12 +35,12 @@ defaultContentLanguageInSubdir = false
 
   name = "Andrew Fowlie"
   role = "Researcher in high-energy physics"
-  # organizations = [{ name="Monash University", url="https://www.monash.edu/"}]
+  organizations = [{ name="Nanjing Normal University", url="http://en.njnu.edu.cn/"}]
   gravatar = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder)
   email = "Andrew.J.Fowlie@qq.com"
   # address = "Monash University, Office 122, School of Physics and Astronomy, Clayton Campus, Clayton, VIC 3800, Australia"
-  twitter = 'fowlimon'
+  # twitter = 'fowlimon'
 
   # Google maps
 
@@ -63,9 +63,13 @@ defaultContentLanguageInSubdir = false
 
   highlight = false
 
+  # Show estimated reading time for posts?
+
+  reading_time = false
+
   # Native social sharing buttons
 
-  sharing = true
+  sharing = false
 
   # Custom CSS and JS assets
 
@@ -102,10 +106,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fas"
     link = "mailto:andrew.j.fowlie@qq.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "https://twitter.com/fowlimon"
+  # [[params.social]]
+  #  icon = "twitter"
+  #  icon_pack = "fab"
+  #  link = "https://twitter.com/fowlimon"
 
   [[params.social]]
      icon = "stack-exchange"
@@ -126,6 +130,13 @@ defaultContentLanguageInSubdir = false
      icon = "inspire"
      icon_pack = "ai"
      link = "http://inspirehep.net/author/profile/A.Fowlie.1"
+
+  # Link to a PDF of your resume/CV from the About widget.
+  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  # [[params.social]]
+  #   icon = "cv"
+  #   icon_pack = "ai"
+  #   link = "files/cv.pdf"
 
 # Navigation Links
 

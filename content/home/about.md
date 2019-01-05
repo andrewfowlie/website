@@ -30,18 +30,18 @@ weight = 2
   course = "MPhys in Physics"
   institution = "Durham University"
   year = 2009
- 
+
 # Overlay a color or image (optional).
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
 [header]
   overlay_color = "#666"  # An HTML color value.
   overlay_img = "6727193557_2f591a9113_o.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
- 
+
 +++
 
 # Hi!
 
-I am Andrew Fowlie, a post-doctoral researcher in high-energy physics at Monash University. In Autumn 2018, I will join the junior faculty at Nanjing Normal University! My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
+I am Andrew Fowlie, a junior faculty member at Nanjing Normal University. My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
 
 
