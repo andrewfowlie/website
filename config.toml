@@ -29,7 +29,7 @@ defaultContentLanguageInSubdir = false
   # Webpage theme
 
   color_theme = "default"
-  font = "classic"
+  font = "default"
 
   # Personal details
 
@@ -196,3 +196,14 @@ defaultContentLanguageInSubdir = false
 
 [languages.en]
   languageCode = "en-us"
+
+# Search
+
+[params.search]
+  engine = 1
+
+# Chinese
+
+# [languages.zh]
+#   languageCode = "zh-cmn"
+#   title = "Andrew Fowlie"
