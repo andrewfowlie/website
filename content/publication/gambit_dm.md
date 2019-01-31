@@ -16,9 +16,6 @@ url_pdf = "http://arxiv.org/pdf/1808.10465"
 url_project = ""
 url_slides = ""
 url_video = ""
-
-# [[url_custom]]
-# name = "DOI"
-# url = ""
+doi = "10.1140/epjc/s10052-018-6513-6"
 +++
 
