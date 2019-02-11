@@ -21,11 +21,19 @@ math = false
 
 +++
 
+## Biographies
+
+* [Life and Work of Statisticians](https://www.york.ac.uk/depts/maths/histstat/lifework.htm)
+* [Interview with Dennis Lindley](https://www.youtube.com/watch?v=cgclGi8yEu4)
+
 ## Bayesian statistics
 
 * [Mackay](http://www.inference.org.uk/itila/book.html), Information Theory, Inference, and Learning Algorithms
 * [Earman](http://www.pitt.edu/~jearman/Earman_1992BayesOrBust.pdf), Bayes or Bust
 * [Bayesian Spectacles](https://www.bayesianspectacles.org/)
+* [Berger & Selke](https://www.tandfonline.com/doi/abs/10.1080/01621459.1987.10478397), Testing a Point Null Hypothesis: The Irreconcilability of P Values and Evidence
+* [Kass & Rafferty](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572), Bayes factors
+* [Lavine](http://people.math.umass.edu/~lavine/Book/book.html), Introduction to Statistical Thought
 
 ## Fine-tuning and Occam's razor
 
