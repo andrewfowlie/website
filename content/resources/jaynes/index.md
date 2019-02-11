@@ -26,5 +26,5 @@ You can read about Jaynes at [Larry Bretthorst's webpage](https://bayes.wustl.ed
 
 I am using OCR software to typeset Jaynes' typewritten works.
 
-* Bayes again! (1963) [[pdf]](https://github.com/andrewfowlie/website/raw/master/content/resources/bayes_again.pdf) [[tex]](https://github.com/andrewfowlie/website/raw/master/content/resources/bayes_again.tex) [[original]](https://bayes.wustl.edu/etj/articles/bayes.again.pdf)
-* What's wrong with Bayesian methods? (1984) [[pdf]](https://github.com/andrewfowlie/website/raw/master/content/resources/whats_wrong.pdf) [[tex]](https://github.com/andrewfowlie/website/raw/master/content/resources/whats_wrong.tex) [[original]](https://bayes.wustl.edu/etj/articles/bayesian.methods.pdf)
+* Bayes again! (1963) [[pdf]](https://github.com/andrewfowlie/website/raw/master/content/resources/jaynes/bayes_again.pdf) [[tex]](https://github.com/andrewfowlie/website/raw/master/content/resources/jaynes/bayes_again.tex) [[original]](https://bayes.wustl.edu/etj/articles/bayes.again.pdf)
+* What's wrong with Bayesian methods? (1984) [[pdf]](https://github.com/andrewfowlie/website/raw/master/content/resources/jaynes/whats_wrong.pdf) [[tex]](https://github.com/andrewfowlie/website/raw/master/content/resources/jaynes/whats_wrong.tex) [[original]](https://bayes.wustl.edu/etj/articles/bayesian.methods.pdf)
