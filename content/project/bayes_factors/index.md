@@ -17,7 +17,7 @@ summary = 'Anomalies in high-energy physics with Bayes factors'
 tags = ["bayes-factors", "bayesian", "np", "dm"]
 
 # Does the project detail page use math formatting?
-math = false
+math = true
 
 +++
 
@@ -25,7 +25,7 @@ Anomalies in high-energy physics are almost always judged by (global) $p$-values
 
 Summarising [Berger et al, 2001](http://www.jstor.org/stable/4356165?seq=1#page_scan_tab_contents),
 
-+ Bayes factors are easy to understand - *p*-values, on the other hand, are frequently misinterpreted, even by scientists.
++ Bayes factors are easy to understand - $p$-values, on the other hand, are frequently misinterpreted, even by scientists.
 + Bayes factors may be applied to more than two models, non-nested models and cases in which asymptotic formulae cannot apply.
 + Bayes factors include an automatic Occam's razor, punishing e.g., fine-tuning.
 
@@ -42,3 +42,5 @@ For example, a Bayes factor of ten in favour of model $A$ means that it is ten t
 plausible relative to model $B$ than it was before our experiment.
 
 There are many interesting discussions about the merits of Bayes factors at [Bayesian Spectacles](https://www.bayesianspectacles.org/). For an early discussion, see [Rozeboom, 1960](stats.org.uk/statistical-inference/Rozeboom1960.pdf).
+
+It is often remarked that $p$-values overstate the evidence against the null (see e.g. [Berger & Selke, 1987](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1987.10478397)). I investigated this in the context of [resonance searches at the LHC](/publication/bayes_vs_freq), finding that indeed $p$-values could overstate the evidence against the background-only model by about $1\sigma$ in that setting.
