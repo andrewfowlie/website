@@ -48,4 +48,6 @@ math = false
 
 * [[1310.1284]](http://arxiv.org/abs/1310.1284) Discovering the Significance of 5 sigma
 * [[1007.1727]](https://arxiv.org/abs/1007.1727) Asymptotic formulae for likelihood-based tests of new physics
+* [CDF Statistics Committee Recommendations](https://www-cdf.fnal.gov/physics/statistics/statistics_recommendations.html)
+* [Lyons](https://www-cdf.fnal.gov/physics/statistics/notes/lyons-two-hypotheses.ps), Comparing Two Hypothesis. Contains pedagogical discussion of "paradox" that $\Delta\chi^2$ could lead to different conclusions than just $\chi^2$
 
