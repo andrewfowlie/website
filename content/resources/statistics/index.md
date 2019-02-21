@@ -37,6 +37,8 @@ math = true
 * [Lindley](https://projecteuclid.org/download/pdfview_1/euclid.ss/1263478377), Comment on Harold Jeffreys's Theory of Probability
 * [Lindley](https://www.phil.vt.edu/dmayo/personal_website/Lindley_Philosophy_of_Statistics.pdf), Philosophy of Statistics
 * [Berger](https://www2.stat.duke.edu/~berger/papers.html), Selected works
+* Brewer, Lecture [notes](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) and [videos](https://spee.ch/@BrendonBrewer:8/prob-inference-part1)
+* [Loredo](http://astrostatistics.psu.edu/su09/lecturenotes/bayesLoredo.pdf), Introduction to Bayesian Inference
 
 ## Fine-tuning and Occam's razor
 
