@@ -17,7 +17,7 @@ summary = ""
 tags = ["bayes-factors", "bayesian"]
 
 # Does the project detail page use math formatting?
-math = false
+math = true
 
 +++
 
@@ -34,6 +34,9 @@ math = false
 * [Berger & Selke](https://www.tandfonline.com/doi/abs/10.1080/01621459.1987.10478397), Testing a Point Null Hypothesis: The Irreconcilability of P Values and Evidence
 * [Kass & Rafferty](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572), Bayes factors
 * [Lavine](http://people.math.umass.edu/~lavine/Book/book.html), Introduction to Statistical Thought
+* [Lindley](https://projecteuclid.org/download/pdfview_1/euclid.ss/1263478377), Comment on Harold Jeffreys's Theory of Probability
+* [Lindley](https://www.phil.vt.edu/dmayo/personal_website/Lindley_Philosophy_of_Statistics.pdf), Philosophy of Statistics
+* [Berger](https://www2.stat.duke.edu/~berger/papers.html), Selected works
 
 ## Fine-tuning and Occam's razor
 
