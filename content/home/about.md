@@ -42,6 +42,6 @@ weight = 2
 
 # Hi!
 
-I am Andrew Fowlie, a junior faculty member at Nanjing Normal University. My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
+I am Andrew Fowlie, a junior faculty member at Nanjing Normal University - here is our [group photo](home/group.jpg). My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
 
 
