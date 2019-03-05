@@ -21,6 +21,8 @@ math = true
 
 +++
 
+### [Is it permitted for a physicist to join the fun in this Neo-Bayesian vs. orthodox fight?](/resources/jaynes/bayes_again.pdf)
+
 Anomalies in high-energy physics are almost always judged by (global) $p$-values and significances. I propose that we instead judge anomalies using so-called Bayes factors. I applied this to [indirect searches for dark matter by DAMPE](/publication/dampe_significance) and the [750 GeV diphoton excess](/publication/diphoton).
 
 Summarising [Berger et al, 2001](http://www.jstor.org/stable/4356165?seq=1#page_scan_tab_contents),
