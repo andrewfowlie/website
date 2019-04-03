@@ -31,7 +31,6 @@ math = true
 * [Mackay](http://www.inference.org.uk/itila/book.html), Information Theory, Inference, and Learning Algorithms
 * [Earman](http://www.pitt.edu/~jearman/Earman_1992BayesOrBust.pdf), Bayes or Bust
 * [Bayesian Spectacles](https://www.bayesianspectacles.org/)
-* [Berger & Selke](https://www.tandfonline.com/doi/abs/10.1080/01621459.1987.10478397), Testing a Point Null Hypothesis: The Irreconcilability of P Values and Evidence
 * [Kass & Rafferty](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572), Bayes factors
 * [Lavine](http://people.math.umass.edu/~lavine/Book/book.html), Introduction to Statistical Thought
 * [Lindley](https://projecteuclid.org/download/pdfview_1/euclid.ss/1263478377), Comment on Harold Jeffreys's Theory of Probability
@@ -39,6 +38,18 @@ math = true
 * [Berger](https://www2.stat.duke.edu/~berger/papers.html), Selected works
 * Brewer, Lecture [notes](https://www.stat.auckland.ac.nz/~brewer/stats331.pdf) and [videos](https://spee.ch/@BrendonBrewer:8/prob-inference-part1)
 * [Loredo](http://astrostatistics.psu.edu/su09/lecturenotes/bayesLoredo.pdf), Introduction to Bayesian Inference
+* [Bernardo](https://www.uv.es/~bernardo/Slides.pdf), An Introduction to Objective Bayesian Statistics
+* [[1708.07459]](https://arxiv.org/abs/1708.07459) Divergence, Entropy, Information: An Opinionated Introduction to Information Theory
+
+## $p$-values
+
+* [Berger & Selke](https://www.tandfonline.com/doi/abs/10.1080/01621459.1987.10478397), Testing a Point Null Hypothesis: The Irreconcilability of P Values and Evidence
+* [Berger & Delampady](https://projecteuclid.org/euclid.ss/1177013238), Testing Precise Hypotheses
+* [Lew](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419900/), Bad statistical practice in pharmacology (and other basic biomedical disciplines): you probably don't know $P$
+* [Hubbard & Bayarri](https://www.roma1.infn.it/~dagos/dott-prob_30/Hubbard-Bayarri-2003.pdf), Confusion Over Measures of Evidence ($p$'s) Versus Errors ($\alpha$'s) in Classical Statistical Testing
+* [Rozeboom](http://www.psych.ualberta.ca/~rozeboom/files/1960_The_fallacy_of_the_null_hypothesis_significance_test.pdf), The fallacy of the null-hypothesis significance test
+* [Benjamin et al](https://www.nature.com/articles/s41562-017-0189-z), Redefine Statistical Significance
+* [Gibbons & Pratt](https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.1975.10479106), $P$-values: Interpretation and Methodology
 
 ## Fine-tuning and Occam's razor
 
@@ -51,6 +62,7 @@ math = true
 
 ## Frequentist statistics for the LHC
 
+* [[1005.1891]](http://arxiv.org/abs/1005.1891) Trial factors for the look elsewhere effect in high energy physics
 * [[1310.1284]](http://arxiv.org/abs/1310.1284) Discovering the Significance of 5 sigma
 * [[1007.1727]](https://arxiv.org/abs/1007.1727) Asymptotic formulae for likelihood-based tests of new physics
 * [CDF Statistics Committee Recommendations](https://www-cdf.fnal.gov/physics/statistics/statistics_recommendations.html)
