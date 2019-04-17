@@ -1,47 +1,13 @@
 +++
-# About/Biography widget.
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear in.
 
-date = "2016-04-20T00:00:00"
-draft = false
-active = true
+title = "Biography"
 
-widget = "about"
-
-# Order that this section will appear in.
-weight = 2
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Dark matter",
-    "LHC physics",
-    "Supersymmetry",
-    "Bayesian statistics",
-    "Naturalness"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in high-energy physics"
-  institution = "Sheffield University"
-  year = 2013
-
-[[education.courses]]
-  course = "MPhys in Physics"
-  institution = "Durham University"
-  year = 2009
-
-# Overlay a color or image (optional).
-#   Deactivate an option by commenting out the line, prefixing it with `#`.
-[header]
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "6727193557_2f591a9113_o.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
+# Choose the user profile to display
+# This should be the username of a profile in your `content/author/` folder.
+author = "admin"
 +++
-
-# Hi!
-
-I am Andrew Fowlie, a junior faculty member at Nanjing Normal University - here is our [group photo](home/group.jpg). My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
-
-
