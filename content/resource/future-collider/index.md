@@ -31,3 +31,4 @@ I support the construction of a new particle collider. I am collecting semi-popu
 * [Yifang](https://www.nature.com/articles/d41586-018-07492-w), Inside the plans for Chinese mega-collider that will dwarf the LHC
 * [Dorigo](https://www.science20.com/tommaso_dorigo/why_we_need_a_new_collider-235940), Why We Need A New Collider
 * [[1703.06079]](https://arxiv.org/abs/1703.06079) A Case for Future Lepton Colliders
+* [[1905.07489]](https://arxiv.org/abs/1905.07489) TASI Lectures on Future Colliders, Michelangelo Mangano
