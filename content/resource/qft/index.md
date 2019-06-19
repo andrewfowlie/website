@@ -66,3 +66,9 @@ math = false
 
 * [[1406.4550]](http://arxiv.org/abs/1406.4550) Classical and quantum ghosts
 * [[1209.0583]](http://arxiv.org/abs/1209.0583) Higher derivative theories with constraints : Exorcising Ostrogradski's Ghost
+
+## Gravitational waves from first-order phase transitions
+
+* [[1004.4187]](https://arxiv.org/abs/1004.4187) Energy Budget ofCosmological First-order Phase Transitions
+* [[1705.01783]](https://arxiv.org/abs/1705.01783) Gravitational waves from a first order electroweak phase transition: a brief review
+* [[1206.2942]](https://arxiv.org/abs/1206.2942) Electroweak baryogenesis
