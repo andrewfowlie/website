@@ -13,11 +13,8 @@ math = true
 url_pdf = "https://arxiv.org/pdf/1206.0264"
 url_slides = ""
 url_video = ""
+url_poster = "talks/oxford.pdf"
 
 [header]
-
-[[url_custom]]
-name = "Poster"
-url = "talks/oxford.pdf"
 
 +++
