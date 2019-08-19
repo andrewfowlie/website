@@ -84,4 +84,4 @@ interests = [
 
 +++
 
-I am Andrew Fowlie, a junior faculty member at Nanjing Normal University - here is our [group photo](img/group.jpg). My research interests include beyond the standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
+I am Andrew Fowlie, a junior faculty member at Nanjing Normal University - here is our [group photo](img/group.jpg). My research interests include beyond the Standard model phenomenology, LHC physics, dark matter and Bayesian statistics.

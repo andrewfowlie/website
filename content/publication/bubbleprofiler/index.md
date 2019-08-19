@@ -9,6 +9,7 @@ publication_types = ["2"]
 publication = ""
 publication_short = ""
 featured = false
+doi = "https://doi.org/10.1016/j.cpc.2019.05.017"
 title = "BubbleProfiler: finding the field profile and action for cosmological phase transitions"
 url_code = "https://github.com/bubbleprofiler/bubbleprofiler"
 url_dataset = ""
