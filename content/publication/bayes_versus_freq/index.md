@@ -22,10 +22,10 @@ doi = ""
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Change in $p$-value and the posterior of the null as the luminosity grows"
+  # caption = "Change in $p$-value and the posterior of the null as the luminosity grows"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Bottom"
+  # focal_point = "Bottom"
 +++
 
