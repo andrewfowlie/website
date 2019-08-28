@@ -10,7 +10,7 @@ selected = false
 math = true
 
 url_pdf = "https://arxiv.org/abs/1809.02097"
-url_slides = "talks/weiahi_2019.pdf"
+url_slides = "talks/weihai_2019.pdf"
 url_video = ""
 
 [header]
