@@ -16,7 +16,7 @@ url_pdf = "https://arxiv.org/pdf/1902.03243"
 url_project = ""
 url_slides = ""
 url_video = ""
-doi = ""
+doi = "10.1088/1748-0221/14/10/P10031"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

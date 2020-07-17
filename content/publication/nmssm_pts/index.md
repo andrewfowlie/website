@@ -17,6 +17,6 @@ url_pdf = "https://arxiv.org/pdf/1908.11847"
 url_project = ""
 url_slides = ""
 url_video = ""
-doi = ""
+doi = "10.1007/JHEP11(2019)151"
 +++
 
