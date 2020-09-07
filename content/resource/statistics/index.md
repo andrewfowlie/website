@@ -28,6 +28,9 @@ math = true
 
 ## Bayesian statistics
 
+* [Kass & Wasserman](https://www.phil.vt.edu/dmayo/PhilStatistics/Kass%20and%20Wasserma%201996%20Selection%20of%20prior%20distributions%20by%20formal%20rules.pdf), The Selection of Prior Distributions by Formal Rules
+* [Consonni et al](https://projecteuclid.org/download/pdfview_1/euclid.ba/1523671250), Prior Distributions for Objective Bayesian Analysis
+* [Gelman](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf), Bayesian Data Analysis
 * [Mackay](http://www.inference.org.uk/itila/book.html), Information Theory, Inference, and Learning Algorithms
 * [Earman](http://www.pitt.edu/~jearman/Earman_1992BayesOrBust.pdf), Bayes or Bust
 * [Bayesian Spectacles](https://www.bayesianspectacles.org/)

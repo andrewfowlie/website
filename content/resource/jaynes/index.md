@@ -22,6 +22,8 @@ math = true
 
 You can read about Jaynes at [Larry Bretthorst's webpage](https:/bayes.wustl.edu/etj/etj.html) or [Wikipedia](https:/en.wikipedia.org/wiki/Edwin_Thompson_Jaynes).
 
+In [Bernardo, 1980](https://doi.org/10.1007/BF02888370) you will find commentary on Jeffreys-Lindley paradox.
+
 ## Typeset
 
 I am using OCR software to typeset Jaynes' typewritten works.
