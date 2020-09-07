@@ -7,7 +7,7 @@ date = "2020-06-05"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = ""
+publication = "MNRAS, 497, 4, October 2020, 5256–5263"
 publication_short = ""
 featured = false
 title = "Nested sampling cross-checks using order statistics"
@@ -17,6 +17,6 @@ url_pdf = "https://arxiv.org/pdf/2006.03371"
 url_project = ""
 url_slides = ""
 url_video = ""
-doi = ""
+doi = "10.1093/mnras/staa2345"
 +++
 
