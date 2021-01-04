@@ -16,6 +16,6 @@ url_pdf = "https://arxiv.org/pdf/2012.04879"
 url_project = ""
 url_slides = ""
 url_video = ""
-doi = ""
+doi = "10.1080/03610926.2020.1866206"
 +++
 
