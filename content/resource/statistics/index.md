@@ -21,6 +21,10 @@ math = true
 
 +++
 
+## Notes
+
+* More detailed proof of Kerridge's law [[pdf]](../../statistics/kerridge.pdf) [[tex]](../../statistics/kerridge.tex) [[Kerridge (1963)]](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-34/issue-3/Bounds-for-the-Frequency-of-Misleading-Bayes-Inferences/10.1214/aoms/1177704038.full)
+
 ## Biographies
 
 * [Life and Work of Statisticians](https://www.york.ac.uk/depts/maths/histstat/lifework.htm)
