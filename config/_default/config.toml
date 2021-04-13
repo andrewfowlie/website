@@ -9,14 +9,15 @@ title = "Andrew Fowlie"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-# baseurl = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing slash.
+# baseURL = "https://andrewfowlie.github.io/"  # End your URL with a `/` trailing slash.
 # See https://stackoverflow.com/a/62126444/2855071
-baseURL = ""
+baseURL = "/"
 relativeURLs = "True"
+canonifyURLs = "False"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; 2019 Andrew Fowlie. Image from [starsandspirals](https://www.flickr.com/photos/becca02/6727193557) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/)"
+copyright = "&copy; 2021 Andrew Fowlie. Image from [starsandspirals](https://www.flickr.com/photos/becca02/6727193557) under [CC license](https://creativecommons.org/licenses/by-sa/2.0/)"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-105692395-1"
