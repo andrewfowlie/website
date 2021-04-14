@@ -3,7 +3,7 @@
 echo -e "\033[0;32mChecking hugo versions\033[0m"
 
 (
-cd themes/academic
+cd themes/academic || exit
 git checkout v4.2.0
 )
 
@@ -31,7 +31,7 @@ message=${1:-"Deploying website"}
 
 hugo
 
-cd public
+cd public || exit
 
 # Add changes to git
 
