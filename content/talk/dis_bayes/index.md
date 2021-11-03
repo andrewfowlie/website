@@ -10,7 +10,7 @@ location = "Warsaw University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1402.5419"
+url_pdf = "https://arxiv.org/abs/1402.5419"
 url_slides = "https://indico.cern.ch/event/258017/contributions/1588217/attachments/453775/629110/Fowlie_DIS.pdf"
 url_video = ""
 

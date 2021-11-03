@@ -10,7 +10,7 @@ location = "KBFI (Tallinn)"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1407.7534"
+url_pdf = "https://arxiv.org/abs/1407.7534"
 url_slides = "talks/tallinn_2.pdf"
 url_video = ""
 

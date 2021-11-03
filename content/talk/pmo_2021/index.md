@@ -9,7 +9,7 @@ location = "Purple Mountain Observatory"
 selected = false
 math = false
 
-url_pdf = "https://arxiv.org/pdf/2105.13923"
+url_pdf = "https://arxiv.org/abs/2105.13923"
 url_slides = "talks/pmo_2021.pdf"
 url_video = ""
 

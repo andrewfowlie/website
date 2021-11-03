@@ -9,7 +9,7 @@ location = "ATLAS Statistics Forum"
 selected = false
 math = false
 
-url_pdf = "https://arxiv.org/pdf/2105.13923"
+url_pdf = "https://arxiv.org/abs/2105.13923"
 url_slides = "talks/atlas_2021.pdf"
 url_video = "https://drive.google.com/file/d/1cvTAxdg8VCElSUIcXOJv2Ro3MyjcSOSt/view"
 

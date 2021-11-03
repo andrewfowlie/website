@@ -9,7 +9,7 @@ location = "Auckland University"
 selected = false
 math = true
 
-url_pdf = "http://arxiv.org/pdf/1809.02323"
+url_pdf = "https://arxiv.org/abs/1809.02323"
 url_slides = "talks/auckland.pdf"
 url_video = ""
 

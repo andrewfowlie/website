@@ -21,4 +21,4 @@ math = false
 +++
 
 During my PhD I was involved with BayesFits, lead by Prof. Roszkowski. We published high-impact
-analyses of simple SUSY models in light of LHC searches for SUSY and the Higgs discovery [[1](/publication/cmssm_2011), [2](/publication/cmssm_territories), [3](/publication/pmssm)].
+analyses of simple SUSY models in light of LHC searches for SUSY and the Higgs discovery [[1](https://arxiv.org/abs/1111.6098), [2](https://arxiv.org/abs/1206.0264), [3](https://arxiv.org/abs/1306.1567)].

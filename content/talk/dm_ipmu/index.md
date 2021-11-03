@@ -10,7 +10,7 @@ location = "Kavli IMPU, Tokyo"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1708.00181"
+url_pdf = "https://arxiv.org/abs/1708.00181"
 url_slides = "talks/dm_ipmu.pdf"
 url_video = "talks/dm_ipmu.mp4"
 

@@ -25,4 +25,4 @@ Fine-tuning of the weak-scale was traditionally measured by the [Barbieri-Giudic
 $$
 \Delta  = \frac{\partial\ln M_Z^2}{\partial \ln m\_{\\textrm{soft}}}
 $$
-In a series of papers [[1](/publication/cnmssm_2), [2](/publication/cnmssm), [3](/publication/naturalness), [4](/publication/relaxion), [5](/publication/hierarchy)], I have argued that our intuitve ideas about fine-tuning are captured formally in Bayesian statistics.
+In a series of papers [[1](https://arxiv.org/abs/1407.7534), [2](https://arxiv.org/abs/1709.07895), [3](https://arxiv.org/abs/1403.3407), [4](https://arxiv.org/abs/1602.03889), [5](https://arxiv.org/abs/1506.03786)], I have argued that our intuitve ideas about fine-tuning are captured formally in Bayesian statistics.

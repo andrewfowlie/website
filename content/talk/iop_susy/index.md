@@ -10,7 +10,7 @@ location = "Liverpool University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1206.0264"
+url_pdf = "https://arxiv.org/abs/1206.0264"
 url_slides = "https://indico.cern.ch/event/214998/contributions/437805/attachments/341895/477034/Fowlie.pdf"
 url_video = ""
 

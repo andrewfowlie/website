@@ -10,7 +10,7 @@ location = "Torquay"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1602.03889"
+url_pdf = "https://arxiv.org/abs/1602.03889"
 url_slides = "talks/coepp_relaxion.pdf"
 url_video = ""
 

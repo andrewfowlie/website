@@ -10,7 +10,7 @@ location = "Oxford"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1206.0264"
+url_pdf = "https://arxiv.org/abs/1206.0264"
 url_slides = ""
 url_video = ""
 url_poster = "talks/oxford.pdf"

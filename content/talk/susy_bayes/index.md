@@ -10,7 +10,7 @@ location = "Melbourne University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1709.07895"
+url_pdf = "https://arxiv.org/abs/1709.07895"
 url_slides = "https://indico.cern.ch/event/443176/contributions/2154060/attachments/1297800/1935907/nmssm.pdf"
 url_video = ""
 

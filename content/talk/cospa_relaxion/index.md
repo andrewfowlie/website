@@ -10,7 +10,7 @@ location = "Sydney University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1602.03889"
+url_pdf = "https://arxiv.org/abs/1602.03889"
 url_slides = "https://indico.cern.ch/event/491882/contributions/2306104/attachments/1375199/2087902/relaxion.pdf"
 url_video = ""
 

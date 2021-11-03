@@ -10,7 +10,7 @@ location = "Melbourne University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1602.03889"
+url_pdf = "https://arxiv.org/abs/1602.03889"
 url_slides = "https://indico.cern.ch/event/443176/contributions/2165203/attachments/1291623/1948709/relaxion.pdf"
 url_video = ""
 

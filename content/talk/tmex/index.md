@@ -10,7 +10,7 @@ location = "Warsaw"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1106.5117"
+url_pdf = "https://arxiv.org/abs/1106.5117"
 url_slides = "talks/tmex.pdf"
 url_video = ""
 

@@ -10,7 +10,7 @@ location = "Sheffield University"
 selected = false
 math = true
 
-url_pdf = "https://arxiv.org/pdf/1111.6098"
+url_pdf = "https://arxiv.org/abs/1111.6098"
 url_slides = "talks/sheffield.pdf"
 url_video = ""
 
