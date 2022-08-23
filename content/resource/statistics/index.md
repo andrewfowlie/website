@@ -29,16 +29,18 @@ math = true
 
 * [Life and Work of Statisticians](https://www.york.ac.uk/depts/maths/histstat/lifework.htm)
 * [Interview with Dennis Lindley](https://www.youtube.com/watch?v=cgclGi8yEu4)
+* [A Conversation with David Cox](https://projecteuclid.org/journals/statistical-science/volume-9/issue-3/A-Conversation-with-Sir-David-Cox/10.1214/ss/1177010394.full)
 
 ## Bayesian statistics
 
 * [Kass & Wasserman](https://www.phil.vt.edu/dmayo/PhilStatistics/Kass%20and%20Wasserma%201996%20Selection%20of%20prior%20distributions%20by%20formal%20rules.pdf), The Selection of Prior Distributions by Formal Rules
 * [Consonni et al](https://projecteuclid.org/download/pdfview_1/euclid.ba/1523671250), Prior Distributions for Objective Bayesian Analysis
-* [Gelman](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf), Bayesian Data Analysis
+* [Gelman et al](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf), Bayesian Data Analysis
+* [Gelman et al](https://users.aalto.fi/~ave/ROS.pdf), Regression and Other Stories
 * [Mackay](http://www.inference.org.uk/itila/book.html), Information Theory, Inference, and Learning Algorithms
 * [Earman](http://www.pitt.edu/~jearman/Earman_1992BayesOrBust.pdf), Bayes or Bust
 * [Bayesian Spectacles](https://www.bayesianspectacles.org/)
-* [Kass & Rafferty](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572), Bayes factors
+* [Kass & Raftery](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572), Bayes factors
 * [Lavine](http://people.math.umass.edu/~lavine/Book/book.html), Introduction to Statistical Thought
 * [Lindley](https://projecteuclid.org/download/pdfview_1/euclid.ss/1263478377), Comment on Harold Jeffreys's Theory of Probability
 * [Lindley](https://www.phil.vt.edu/dmayo/personal_website/Lindley_Philosophy_of_Statistics.pdf), Philosophy of Statistics
@@ -47,6 +49,7 @@ math = true
 * [Loredo](http://astrostatistics.psu.edu/su09/lecturenotes/bayesLoredo.pdf), Introduction to Bayesian Inference
 * [Bernardo](https://www.uv.es/~bernardo/Slides.pdf), An Introduction to Objective Bayesian Statistics
 * [[1708.07459]](https://arxiv.org/abs/1708.07459) Divergence, Entropy, Information: An Opinionated Introduction to Information Theory
+* [[2004.06425]](https://arxiv.org/abs/2004.06425) Computing Bayes: Bayesian Computation from 1763 to the 21st Century
 
 ## $p$-values
 
@@ -57,6 +60,12 @@ math = true
 * [Rozeboom](http://www.psych.ualberta.ca/~rozeboom/files/1960_The_fallacy_of_the_null_hypothesis_significance_test.pdf), The fallacy of the null-hypothesis significance test
 * [Benjamin et al](https://www.nature.com/articles/s41562-017-0189-z), Redefine Statistical Significance
 * [Gibbons & Pratt](https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.1975.10479106), $P$-values: Interpretation and Methodology
+* [Wagenmakers](https://link.springer.com/content/pdf/10.3758/BF03194105.pdf), A practical solution to the pervasive
+problems of p values
+
+## Confidence intervals
+
+* [Morey et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4742505/), The fallacy of placing confidence in confidence intervals
 
 ## Fine-tuning and Occam's razor
 
