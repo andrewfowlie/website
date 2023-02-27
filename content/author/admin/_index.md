@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Junior Faculty"
+role = "Assistant Professor"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [{ name="Nanjing Normal University", url="http://en.njnu.edu.cn/"}]
+organizations = [{ name="Xi’an Jiaotong-Liverpool University (XJTLU) ", url="https://www.xjtlu.edu.cn/en"}]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include particle physics and statistics."
@@ -53,7 +53,7 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:andrew.j.fowlie@qq.com"
+  link = "mailto:andrew.fowlie@xjtlu.edu.cn"
 
 [[social]]
    icon = "stack-exchange"
@@ -84,4 +84,4 @@ interests = [
 
 +++
 
-I am Andrew Fowlie, a junior faculty member at Nanjing Normal University - here is our [group photo](img/group.jpg). My research interests include beyond the Standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
+I am Andrew Fowlie, a junior faculty member at Xi’an Jiaotong-Liverpool University (XJTLU). My research interests include beyond the Standard model phenomenology, LHC physics, dark matter and Bayesian statistics.

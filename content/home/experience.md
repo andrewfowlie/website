@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Assistant Professor"
+  company = "Xi’an Jiaotong-Liverpool University (XJTLU)"
+  company_url = "https://www.xjtlu.edu.cn/en"
+  location = "Suzhou"
+  date_start = "2023-02-01"
+  date_end = ""
+  description = """"""
+  
+[[experience]]
   title = "Associate Professor"
   company = "Nanjing Normal University"
   company_url = "http://en.njnu.edu.cn/"
   location = "Nanjing"
-  date_start = "2018-01-08"
-  date_end = ""
+  date_start = "2018-08-01"
+  date_end = "2022-12-01"
   description = """"""
 
 [[experience]]
@@ -32,7 +41,7 @@ date_format = "Jan 2006"
   company_url = "https://kbfi.ee/?lang=en"
   location = "Melbourne"
   date_start = "2015-08-01"
-  date_end = "2018-01-08"
+  date_end = "2018-08-01"
   description = "Particle theory group lead by Prof Csaba Balazs"
 
 [[experience]]
