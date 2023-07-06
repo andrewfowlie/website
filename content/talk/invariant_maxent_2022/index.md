@@ -11,7 +11,7 @@ selected = false
 math = true
 
 url_pdf = ""
-url_slides = "invariant_maxent_2023.pdf"
+url_slides = "talks/invariant_maxent_2023.pdf"
 url_video = "https://drive.google.com/file/d/1ttM3XZB4Y5J-cyoTieQ8OWvmdZ3I4PuX/view?usp=sharing"
 
 [header]

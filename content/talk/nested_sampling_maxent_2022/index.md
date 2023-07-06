@@ -11,7 +11,7 @@ selected = false
 math = true
 
 url_pdf = ""
-url_slides = "nested_sampling_maxent_2023.pdf"
+url_slides = "talks/nested_sampling_maxent_2023.pdf"
 url_video = ""
 
 [header]
