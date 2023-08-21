@@ -23,11 +23,12 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Dark matter",
-  "LHC physics",
-  "Supersymmetry",
-  "Bayesian statistics",
-  "Naturalness"
+  "Physics beyond the Standard Model",
+  "First-order phase transitions",
+  "Gravitational waves",
+  "Foundations of statistics",
+  "Statistical computation",
+  "Nested Sampling",
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -84,4 +85,8 @@ interests = [
 
 +++
 
-I am Andrew Fowlie, a junior faculty member at Xi’an Jiaotong-Liverpool University (XJTLU). My research interests include beyond the Standard model phenomenology, LHC physics, dark matter and Bayesian statistics.
+I am Andrew Fowlie, a faculty member of theoretical physics at Xi’an Jiaotong-Liverpool University (XJTLU). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter. 
+
+I've worked entensively on nested sampling, developing an important diagnostic test for faulty runs and pioneering its application to frequentist statistics, as well as on the foundations of statistics generally and its relevance for searches for new particles.
+
+Please don't hesitate to contact me to collaborate, for consultancy on statistical issues, or for talks, seminars and media interviews on my work or statistical matters arising in physics.
