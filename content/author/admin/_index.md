@@ -87,6 +87,6 @@ interests = [
 
 I am Andrew Fowlie, a faculty member of theoretical physics at Xi’an Jiaotong-Liverpool University (XJTLU). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter. 
 
-I've worked entensively on nested sampling, developing an important diagnostic test for faulty runs and pioneering its application to frequentist statistics, as well as on the foundations of statistics generally and its relevance for searches for new particles.
+I've worked extensively on nested sampling, developing an important diagnostic test for faulty runs and pioneering its application to frequentist statistics, as well as on the foundations of statistics generally and its relevance for searches for new particles.
 
 Please don't hesitate to contact me to collaborate, for consultancy on statistical issues, or for talks, seminars and media interviews on my work or statistical matters arising in physics.
