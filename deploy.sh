@@ -21,7 +21,7 @@ git add -A
 git commit -m "${message}"
 git push
 
-echo -e "\033[0;32Building website\033[0m"
+echo -e "\033[0;32mBuilding website\033[0m"
 
 (
 cd public || exit
