@@ -18,7 +18,8 @@ echo -e "\033[0;32mCommitting website\033[0m"
 message=${1:-"Updating website"}
 
 git add -A
-git commit -m "${message}" && git push
+git commit -m "${message}"
+git push
 
 echo -e "\033[0;32mBuilding website\033[0m"
 
@@ -36,7 +37,8 @@ message=${1:-"Deploying website"}
 (
 cd public || exit
 git add -A
-git commit -m "${message}" && git push
+git commit -m "${message}"
+git push
 )
 
 echo -e "\033[0;32mDone\033[0m"
