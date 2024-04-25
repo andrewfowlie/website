@@ -21,15 +21,20 @@ git add -A
 git commit -m "${message}"
 git push
 
+echo -e "\033[0;32Building website\033[0m"
+
+(
+cd public || exit
+git checkout master
+)
+
+hugo
+
 echo -e "\033[0;32mDeploying website\033[0m"
 
 message=${1:-"Deploying website"}
 
 (
-
-# Build website
-
-hugo
 
 cd public || exit
 
