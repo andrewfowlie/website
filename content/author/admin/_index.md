@@ -103,7 +103,7 @@ I'm a member of
 
 * Physics beyond the Standard Model
 * First-order phase transitions
-* Gravitational waves",
+* Gravitational waves
 * Foundations of statistics
 * Statistical computation
 * Nested Sampling
