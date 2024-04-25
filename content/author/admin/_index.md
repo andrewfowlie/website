@@ -22,7 +22,7 @@ bio = "My research interests include particle physics and statistics."
 email = ""
 
 # List (academic) interests or hobbies
-interests = [
+do_not_show_interests = [
   "Physics beyond the Standard Model",
   "First-order phase transitions",
   "Gravitational waves",
@@ -85,8 +85,25 @@ interests = [
 
 +++
 
-I am Andrew Fowlie, a faculty member of theoretical physics at Xi’an Jiaotong-Liverpool University (XJTLU). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter. 
+I am Andrew Fowlie, a faculty member of theoretical physics at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter.
 
 I've worked extensively on nested sampling, developing an important diagnostic test for faulty runs and pioneering its application to frequentist statistics, as well as on the foundations of statistics generally and its relevance for searches for new particles.
 
 Please don't hesitate to contact me to collaborate, for consultancy on statistical issues, or for talks, seminars and media interviews on my work or statistical matters arising in physics.
+
+### Collaborations
+
+I'm a member of
+
+* [GAMBIT - The Global And Modular Inference Tool](https://gambitbsm.org)
+* [NANOGrav - North American Nanohertz Observatory for Gravitational Waves](https://nanograv.org/)
+* [CEPC - The Circular Electron Positron Collider](http://cepc.ihep.ac.cn/)
+
+### Interests
+
+* Physics beyond the Standard Model
+* First-order phase transitions
+* Gravitational waves",
+* Foundations of statistics
+* Statistical computation
+* Nested Sampling
