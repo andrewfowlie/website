@@ -30,7 +30,7 @@ if [[ "$action" == "update" ]]; then
 
     echo -e "\033[0;32mCommitting website\033[0m"
 
-    message=${1:-"Updating website"}
+    message=${2:-"update website"}
 
     git add -A
     git commit -m "${message}"
@@ -46,7 +46,7 @@ if [[ "$action" == "deploy" ]]; then
 
     echo -e "\033[0;32mDeploying website\033[0m"
 
-    message=${1:-"Deploying website"}
+    message=${2:-"update website"}
 
     (
     cd public || exit
