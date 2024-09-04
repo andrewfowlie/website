@@ -9,7 +9,11 @@ widget = "blank"
     var showDates=1;
     var showLinkAll=0;
 </script>
-<script type = "text/javascript" src="/js/arxiv_widget.js"></script>
+
+<script type="text/javascript" src="/js/arxiv_widget.js"></script>
+
 <div class="universal-wrapper">
-<div class="article-style" itemprop="articleBody"><div id="arxivfeed"></div>
+  <div class="article-style" itemprop="articleBody">
+    <div id="arxivfeed"></div>
+  </div>
 </div>
