@@ -29,6 +29,10 @@ update:
 	git commit -m "$(MESSAGE)"
 	git push
 
+.PHONY: preview
+preview:
+	hugo server --navigateToChanged & sleep 1 && xdg-open http://localhost:1313
+
 .PHONY: deploy
 deploy: setup
 	hugo
