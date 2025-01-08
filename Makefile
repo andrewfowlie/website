@@ -1,4 +1,4 @@
-MESSAGE ?= $(MESSAGE)
+MESSAGE ?= "update webpage"
 
 .PHONY: hugo-debian
 hugo-debian:
