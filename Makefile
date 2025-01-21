@@ -33,8 +33,12 @@ update:
 preview:
 	hugo server --navigateToChanged & sleep 1 && xdg-open http://localhost:1313
 
+.PHONY: dirty
+dirty:
+	@[ -z "$$(git status --short)" ] || (echo "git tree dirty" && git status --short && exit 1)
+
 .PHONY: deploy
-deploy: setup
+deploy: dirty setup
 	hugo
 	cd public && git add -A
 	cd public && git commit -m "$(MESSAGE)"
