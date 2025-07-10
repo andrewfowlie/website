@@ -69,7 +69,7 @@ do_not_show_interests = [
 [[social]]
   icon = "arxiv"
   icon_pack = "ai"
-  link = "https://arxiv.org/find/hep-ph/1/au:+Fowlie_A/0/1/0/all/0/1"
+  link = "https://arxiv.org/a/fowlie_a_1.html"
 
 [[social]]
    icon = "inspire"
@@ -91,12 +91,13 @@ I've worked extensively on nested sampling, developing an important diagnostic t
 
 Please don't hesitate to contact me to collaborate, for consultancy on statistical issues, or for talks, seminars and media interviews on my work or statistical matters arising in physics.
 
+Starting from AY2025/2026, I *always* sign my reviews, including those publicly available on [Sci|Post](https://scipost.org/contributor/6156).
+
 ### Collaborations
 
 I'm a member of
 
 * [GAMBIT - The Global And Modular Inference Tool](https://gambitbsm.org)
-* [NANOGrav - North American Nanohertz Observatory for Gravitational Waves](https://nanograv.org/)
 * [CEPC - The Circular Electron Positron Collider](http://cepc.ihep.ac.cn/)
 
 ### Interests
