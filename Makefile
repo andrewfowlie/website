@@ -12,6 +12,7 @@ hugo-fedora:
 	dnf install alien
 	wget -nc https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_Linux-64bit.deb
 	alien -i hugo_0.59.0_Linux-64bit.deb
+	dnf versionlock add hugo
 	rm hugo_0.59.0_Linux-64bit.deb
 
 .PHONY: setup
