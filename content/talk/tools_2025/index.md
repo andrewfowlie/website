@@ -10,7 +10,7 @@ selected = false
 math = false
 
 url_pdf = ""
-url_slides = ""
+url_slides = "talks/tools_2025.pdf"
 url_video = ""
 
 [header]
