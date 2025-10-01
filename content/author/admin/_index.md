@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Associate Professor"
+role = "Theoretical physicist & data scientist"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -85,7 +85,7 @@ do_not_show_interests = [
 
 +++
 
-I am Andrew Fowlie, a faculty member of theoretical physics at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter.
+I am Andrew Fowlie, an associate professor of theoretical physics at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en). I work at the interface of physics and data science, and specialize in developing and applying statistical methods to physics beyond the Standard model, including LHC physics and dark matter.
 
 I've worked extensively on nested sampling, developing an important diagnostic test for faulty runs and pioneering its application to frequentist statistics, as well as on the foundations of statistics generally and its relevance for searches for new particles.
 
