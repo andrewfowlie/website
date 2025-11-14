@@ -67,3 +67,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+<p align="right">
+<iframe src="/talkmap/map.html" title="description" style="width: 100%; aspect-ratio: 4/3;"></iframe> 
+</p>

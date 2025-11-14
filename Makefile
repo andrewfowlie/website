@@ -1,5 +1,8 @@
 MESSAGE ?= 'update webpage'
 
+static/talkmap:
+	python3 talkmap.py
+
 .PHONY: hugo-debian
 hugo-debian:
 	wget -nc https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_Linux-64bit.deb
@@ -40,7 +43,7 @@ dirty:
 
 .PHONY: deploy
 deploy: dirty setup
-	hugo
+	hugo static/talkmap
 	cd public && git add -A
 	cd public && git commit -m "$(MESSAGE)"
 	cd public && git push
