@@ -7,7 +7,7 @@ event = "Fine-tuning, the Multiverse and Life"
 event_url = "https://web.archive.org/web/20171114054944/http://www.physics.usyd.edu.au/~luke/2016FTConf/"
 location = "Sydney University"
 country_code = "AU"
-place_name = "Syndey"
+place_name = "Sydney"
 
 selected = false
 math = true

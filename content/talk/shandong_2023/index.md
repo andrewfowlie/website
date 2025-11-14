@@ -7,7 +7,7 @@ event = ""
 event_url = ""
 location = "Shandong University"
 country_code = "CN"
-place_name = "Shandong"
+place_name = "Jinan"
 
 selected = false
 math = true

@@ -7,7 +7,7 @@ event = "CAT Seminar Series"
 event_url = ""
 location = "The University of Goettingen (online)"
 country_code = "DE"
-place_name = "Goettingen"
+place_name = "Göttingen"
 
 selected = false
 math = true

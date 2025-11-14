@@ -11,11 +11,12 @@ import pgeocode
 import getorg
 
 
-URL = "https://andrewfowlie.github.io/talk/"
+URL = "https://andrewfowlie.github.io/talk"
 OUTPUT = "static/talkmap"
 TALKS = glob.glob("content/talk/*/index.md")
 MISSING = {"TW": {"Taipei": (25.04776, 121.53185),
-                  "Hualien": (23.97694, 121.60444)}}
+                  "Hualien": (23.97694, 121.60444)},
+           "KR": {"Seoul": (37.532600, 127.024612)}}
 
 
 pgeocode.COUNTRIES_VALID += ["CN"]
@@ -38,10 +39,14 @@ def locate(place_name, country_code):
     except KeyError:
         pass
 
-    geodata = pgeocode.Nominatim(country_code)._data
-    match = geodata[geodata["place_name"] == place_name]
+    geodata = pgeocode.Nominatim(country_code)
+    match = geodata._data[geodata._data["place_name"] == place_name]
     if match.size == 0:
-        return None
+        match = geodata._data[geodata._data["community_name"] == place_name]
+    if match.size == 0:
+        match = geodata._data[geodata._data["county_name"] == place_name]
+    if match.size == 0:
+        match = geodata.query_location(place_name)
     return Location(match.iloc[0]["latitude"], match.iloc[0]["longitude"])
 
 
@@ -53,7 +58,6 @@ def from_markdown(file_name, key):
 
 
 def make_html_map(location_dict):
-    # m = getorg.orgmap.create_map_obj()
     getorg.orgmap.output_html_cluster_map(
         location_dict, folder_name=OUTPUT, hashed_usernames=False)
 
@@ -88,8 +92,8 @@ if __name__ == "__main__":
 
         try:
             location_dict[description] = locate(place_name, country_code)
-        except:
+        except Exception as e:
             print(
-                f"no match for {file_name} at {location} at {place_name}, {country_code}")
+                f"no match for {file_name} at {location} at {place_name}, {country_code} - {e}")
 
         make_html_map(location_dict)

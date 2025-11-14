@@ -6,7 +6,7 @@ event = "EPS-HEP 2019"
 event_url = "https://indico.cern.ch/event/577856/overview"
 location = "Ghent"
 country_code = "BE"
-place_name = "Nt"
+place_name = "Gent"
 
 selected = false
 math = false
