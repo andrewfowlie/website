@@ -5,6 +5,8 @@ abstract = "Nested sampling (NS) is an invaluable tool in data analysis in moder
 event = ""
 event_url = ""
 location = "Monash University"
+country_code = "AU"
+place_name = "Melbourne"
 
 selected = false
 math = true

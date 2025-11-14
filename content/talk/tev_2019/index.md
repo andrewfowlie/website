@@ -5,6 +5,8 @@ abstract = "I discuss findings from my recent comparison of Bayesian and frequen
 event = "Fourteenth workshop on TeV physics"
 event_url = "https://indico.ihep.ac.cn/event/8979/"
 location = "Nanjing"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

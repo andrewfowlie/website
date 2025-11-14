@@ -6,6 +6,8 @@ abstract_short = ""
 event = "The 2023 Shanghai Symposium on Particle Physics and Cosmology: Phase Transitions, Gravitational Waves, and Colliders"
 event_url = "https://indico-tdli.sjtu.edu.cn/event/1741"
 location = "Tsung-Dao Lee Institute"
+country_code = "CN"
+place_name = "Shanghai"
 
 selected = false
 math = true

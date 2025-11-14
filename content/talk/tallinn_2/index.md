@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Internal seminar"
 event_url = ""
 location = "KBFI (Tallinn)"
+country_code = "EE"
+place_name = "Tallinn"
 
 selected = false
 math = true

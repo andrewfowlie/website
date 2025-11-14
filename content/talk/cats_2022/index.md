@@ -6,6 +6,8 @@ abstract_short = ""
 event = "CAT Seminar Series"
 event_url = ""
 location = "The University of Goettingen (online)"
+country_code = "DE"
+place_name = "Goettingen"
 
 selected = false
 math = true

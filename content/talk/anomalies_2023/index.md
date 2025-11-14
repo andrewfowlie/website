@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Mini-Workshop on Anomalies at the LHC"
 event_url = "https://indico-tdli.sjtu.edu.cn/event/1696"
 location = "Tsung-Dao Lee Institute"
+country_code = "CN"
+place_name = "Shanghai"
 
 selected = false
 math = true

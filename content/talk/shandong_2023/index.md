@@ -6,6 +6,8 @@ abstract_short = ""
 event = ""
 event_url = ""
 location = "Shandong University"
+country_code = "CN"
+place_name = "Shandong"
 
 selected = false
 math = true

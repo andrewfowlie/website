@@ -6,6 +6,8 @@ abstract_short = "Lindley's paradox is a difficulty reconciling two paradigms, B
 event = "CompStats meeting"
 event_url = ""
 location = "Monash University"
+country_code = "AU"
+place_name = "Melbourne"
 
 selected = false
 math = true

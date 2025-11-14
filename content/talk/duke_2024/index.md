@@ -6,6 +6,8 @@ abstract_short = ""
 event = ""
 event_url = ""
 location = "Duke Kunshan University"
+country_code = "CN"
+place_name = "Kunshan"
 
 selected = false
 math = false

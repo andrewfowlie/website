@@ -5,6 +5,8 @@ abstract = "I discuss how one can use Bayesian statistics to judge scientific th
 event = "A Fractured Universe? Fundamental Physics, Symmetry and Life"
 event_url = "http://www.physics.usyd.edu.au/~luke/2017FTConf/index.php"
 location = "Sydney University"
+country_code = "AU"
+place_name = "Syndney"
 
 selected = false
 math = false

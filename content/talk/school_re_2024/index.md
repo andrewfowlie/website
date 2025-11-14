@@ -6,6 +6,8 @@ abstract_short = ""
 event = "SMP Workshop on Excellent Research Publications"
 event_url = ""
 location = "XJTLU"
+country_code = "CN"
+place_name = "Suzhou"
 
 selected = false
 math = false

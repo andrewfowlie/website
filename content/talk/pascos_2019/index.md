@@ -5,6 +5,8 @@ abstract = "I discuss findings from my recent comparison of Bayesian and frequen
 event = "PASCOS 2019"
 event_url = "www.pascos2019.manchester.ac.uk"
 location = "Manchester"
+country_code = "GB"
+place_name = "Manchester"
 
 selected = false
 math = false

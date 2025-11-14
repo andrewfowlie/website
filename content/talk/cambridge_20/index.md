@@ -5,6 +5,8 @@ abstract = "Nested sampling (NS) is an invaluable tool in data analysis in moder
 event = "Battcock Coffee-time mini seminar "
 event_url = "http://talks.cam.ac.uk/talk/index/149575"
 location = "Cambridge University"
+country_code = "GB"
+place_name = "Cambridge"
 
 selected = false
 math = true

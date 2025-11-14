@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Departmental Seminar"
 event_url = ""
 location = "XJTLU"
+country_code = "CN"
+place_name = "Suzhou"
 
 selected = false
 math = true

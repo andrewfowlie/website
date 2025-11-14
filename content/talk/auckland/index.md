@@ -5,6 +5,8 @@ abstract = "We investigate the impact of uncertainty in the velocity distributio
 event = "Seminar "
 event_url = ""
 location = "Auckland University"
+country_code = "NZ"
+place_name = "Auckland"
 
 selected = false
 math = true

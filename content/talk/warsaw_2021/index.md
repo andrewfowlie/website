@@ -5,6 +5,8 @@ abstract = "The excess of electron recoil events seen by the XENON1T experiment 
 event = ""
 event_url = ""
 location = "NCBJ"
+country_code = "PL"
+place_name = "Warsaw"
 
 selected = false
 math = true

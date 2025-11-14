@@ -6,6 +6,8 @@ abstract_short = "Using the DAMA/LIBRA anomaly as an example, we formalise the n
 event = "APEC Seminar "
 event_url = "http://research.ipmu.jp/seminar/?seminar_id=1943"
 location = "Kavli IMPU, Tokyo"
+country_code = "JP"
+place_name = "Tokyo"
 
 selected = false
 math = true

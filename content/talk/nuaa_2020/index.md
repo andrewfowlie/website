@@ -5,6 +5,8 @@ abstract = "Nested sampling (NS) is an invaluable tool in data analysis in moder
 event = "First International Symposium on the Interdisciplinary Frontiers of Gravity, Matter and Quantum Information"
 event_url = ""
 location = "Nanjing University of Aeronautics and Astronautics"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = true

@@ -6,6 +6,8 @@ abstract_short = "Using the DAMA/LIBRA anomaly as an example, we formalise the n
 event = "NTU Seminar "
 event_url = "http://phys.cts.nthu.edu.tw/act3/seminar_news.php?Sn=1922"
 location = "NTU, Taiwan"
+country_code = "TW"
+place_name = "Taipei"
 
 selected = false
 math = true

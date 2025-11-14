@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Instructional Skills Workshop (ISW)"
 event_url = "https://www.xjtlu.edu.cn/en/school_post/academy-of-future-education/educational-development-unit/explore-our-programmes/instructional-structure-workshop"
 location = "XJTLU"
+country_code = "CN"
+place_name = "Suzhou"
 
 selected = false
 math = true

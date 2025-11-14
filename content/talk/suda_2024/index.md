@@ -6,6 +6,8 @@ abstract_short = ""
 event = ""
 event_url = ""
 location = "Suzhou University"
+country_code = "CN"
+place_name = "Suzhou"
 
 selected = false
 math = false

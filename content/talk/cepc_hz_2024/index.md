@@ -6,6 +6,8 @@ abstract_short = ""
 event = "The 2024 international workshop on the high energy Circular Electron Positron Collider"
 event_url = "https://indico.ihep.ac.cn/event/22089/"
 location = "Hangzhou"
+country_code = "CN"
+place_name = "Hangzhou"
 
 selected = false
 math = true

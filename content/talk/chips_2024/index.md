@@ -6,6 +6,8 @@ abstract_short = ""
 event = "CHIPS Wisdom Forum"
 event_url = ""
 location = "XJTLU Taicang"
+country_code = "CN"
+place_name = "Taicang"
 
 selected = false
 math = false

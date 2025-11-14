@@ -5,6 +5,8 @@ abstract = "I discuss my recent comparison of Bayesian and frequentist approache
 event = "Purple Mountain Observatory Seminar"
 event_url = ""
 location = "Purple Mountain Observatory"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Theory Meets Exepriment"
 event_url = "https://web.archive.org/web/20130817223517/http://tmex2013.fuw.edu.pl/"
 location = "Warsaw"
+country_code = "PL"
+place_name = "Warsaw"
 
 selected = false
 math = true

@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Energy Frontier in Particle Physics: LHC and Future Colliders"
 event_url = "http://phys.cts.nthu.edu.tw/actnews/?Sn=338"
 location = "National Taiwan University"
+country_code = "TW"
+place_name = "Taipei"
 
 selected = false
 math = true

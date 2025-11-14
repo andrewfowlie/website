@@ -5,6 +5,8 @@ abstract = "I present results from [1711.09912](https://arxiv.org/abs/1711.09912
 event = "ICHEP 2018 "
 event_url = "https://indico.cern.ch/event/686555/contributions/2970906/"
 location = "Seoul"
+country_code = "KR"
+place_name = "Seoul"
 
 selected = true
 math = false

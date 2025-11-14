@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Departmental Open Day"
 event_url = ""
 location = "Sheffield University"
+country_code = "GB"
+place_name = "Sheffield"
 
 selected = false
 math = true

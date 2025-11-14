@@ -6,6 +6,8 @@ abstract_short = ""
 event = ""
 event_url = ""
 location = "Zhejiang University"
+country_code = "CN"
+place_name = "Hangzhou"
 
 selected = false
 math = true

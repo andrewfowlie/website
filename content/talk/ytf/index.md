@@ -6,6 +6,8 @@ abstract_short = "I explain how we identify the regions of the Constrained Minim
 event = "Young Theorists' Forum"
 event_url = "https://www.ippp.dur.ac.uk/Workshops/11/ytf11/"
 location = "Durham University"
+country_code = "GB"
+place_name = "Durham"
 
 selected = false
 math = true

@@ -6,6 +6,8 @@ abstract_short = "The relaxion mechanism is a novel solution to the hierarchy pr
 event = "CosPA 2016"
 event_url = "https://indico.cern.ch/event/491882/"
 location = "Sydney University"
+country_code = "AU"
+place_name = "Sydney"
 
 selected = false
 math = true

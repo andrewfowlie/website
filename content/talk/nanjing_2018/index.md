@@ -5,6 +5,8 @@ abstract = "I present results from [1711.09912](https://arxiv.org/abs/1711.09912
 event = "Nanjing Normal University Seminar"
 event_url = ""
 location = "Nanjing Normal University"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

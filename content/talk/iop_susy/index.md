@@ -6,6 +6,8 @@ abstract_short = "In light of the failed supersymmetry searches at the LHC, with
 event = "Institute of Physics: High Energy and Astro Particle Physics 2013"
 event_url = "https://indico.cern.ch/event/214998/"
 location = "Liverpool University"
+country_code = "GB"
+place_name = "Liverpool"
 
 selected = false
 math = true

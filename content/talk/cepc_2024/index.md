@@ -6,6 +6,8 @@ abstract_short = ""
 event = "CEPC New Physics Workshop"
 event_url = "https://indico.ihep.ac.cn/event/23169/contributions/165656/"
 location = "Zhengzhou University"
+country_code = "CN"
+place_name = "Zhengzhou"
 
 selected = false
 math = false

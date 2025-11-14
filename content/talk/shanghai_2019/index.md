@@ -5,6 +5,8 @@ abstract = ""
 event = "SJTU-U. Sydney Workshop on the Electroweak Phase Transition"
 event_url = "https://indico-tdli.sjtu.edu.cn/event/125/overview"
 location = "Shanghai"
+country_code = "CN"
+place_name = "Shanghai"
 
 selected = false
 math = true

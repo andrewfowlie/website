@@ -6,6 +6,8 @@ abstract_short = "Using the DAMA/LIBRA anomaly as an example, we formalise the n
 event = "2017 NCTS Workshop on Dark Matter, Particles and Cosmos "
 event_url = "http://w3.phys.nthu.edu.tw/~dark/nctswdm2017/index.php"
 location = "National Dong Hwa University, Taiwan"
+country_code = "TW"
+place_name = "Hualien"
 
 selected = false
 math = true

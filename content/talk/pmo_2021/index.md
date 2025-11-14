@@ -5,6 +5,8 @@ abstract = "We propose a novel method for computing $p$-values based on nested s
 event = "Purple Mountain Observatory Seminar"
 event_url = ""
 location = "Purple Mountain Observatory"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

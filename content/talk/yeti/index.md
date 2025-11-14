@@ -6,6 +6,8 @@ abstract_short = ""
 event = "YETI"
 event_url = "https://www.ippp.dur.ac.uk/Workshops/12/yeti12/"
 location = "Durham University"
+country_code = "GB"
+place_name = "Durham"
 
 selected = false
 math = true

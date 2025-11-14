@@ -5,6 +5,8 @@ abstract = "Searches for supersymmetric electroweakinos have entered a crucial p
 event = "Tenth Weihai New Physics Meeting"
 event_url = "https://indico.itp.ac.cn/event/4/"
 location = "Weihai"
+country_code = "CN"
+place_name = "Weihai"
 
 selected = false
 math = true

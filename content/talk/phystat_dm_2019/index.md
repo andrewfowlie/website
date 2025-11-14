@@ -5,6 +5,8 @@ abstract = "I discuss findings from my recent comparison of Bayesian and frequen
 event = "PHYSTAT Dark Matter 2019"
 event_url = "https://indico.cern.ch/event/769726/overview"
 location = "Stockholm"
+country_code = "SE"
+place_name = "Stockholm"
 
 selected = false
 math = false

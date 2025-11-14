@@ -6,6 +6,8 @@ abstract_short = ""
 event = "UK HEP Forum"
 event_url = "http://hepwww.rl.ac.uk/accel/forum/2012/about.html"
 location = "Oxford"
+country_code = "GB"
+place_name = "Oxford"
 
 selected = false
 math = true

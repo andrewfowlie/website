@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Third New Physical Numerical Numerical Computing and Simulation Frontier Workshop"
 event_url = "https://indico.itp.ac.cn/event/337/"
 location = "Xinxiang"
+country_code = "CN"
+place_name = "Xinxiang"
 selected = false
 math = false
 

@@ -5,6 +5,8 @@ abstract = "I discuss my recent comparison of Bayesian and frequentist approache
 event = "Nanjing Normal University Seminar"
 event_url = ""
 location = "Nanjing Normal University"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

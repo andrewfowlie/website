@@ -6,6 +6,8 @@ abstract_short = ""
 event = ""
 event_url = ""
 location = "Fudan University"
+country_code = "CN"
+place_name = "Shanghai"
 
 selected = false
 math = true

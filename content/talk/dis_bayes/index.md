@@ -6,6 +6,8 @@ abstract_short = "Discussions are underway for a high-energy proton-proton colli
 event = "DIS 2014"
 event_url = "https://indico.cern.ch/event/258017"
 location = "Warsaw University"
+country_code = "PL"
+place_name = "Warsaw"
 
 selected = false
 math = true

@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Outreach Activity"
 event_url = ""
 location = "Monash University"
+country_code = "AU"
+place_name = "Melbourne"
 
 selected = false
 math = true

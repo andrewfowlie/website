@@ -5,6 +5,8 @@ abstract = "We, the GAMBIT collaboration, perform statistical analyses of models
 event = "Machine Learning Symposium"
 event_url = "https://www.massive.org.au/events/upcoming-events/machine-learning-symposium"
 location = "National Centre for Synchrotron Science"
+country_code = "AU"
+place_name = "Melbourne"
 
 selected = false
 math = false

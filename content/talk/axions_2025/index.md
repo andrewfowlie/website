@@ -6,6 +6,8 @@ abstract_short = ""
 event = "The Fourth International Conference on Axion Physics and Experiment (Axion 2025)"
 event_url = "https://indico.itp.ac.cn/event/316/"
 location = "Nanjing"
+country_code = "CN"
+place_name = "Nanjing"
 selected = false
 math = false
 

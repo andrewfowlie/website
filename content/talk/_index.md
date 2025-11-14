@@ -9,6 +9,6 @@ view = 2
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "talkmap/map.html"
 caption = ""
 +++

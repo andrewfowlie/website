@@ -6,6 +6,8 @@ abstract_short = ""
 event = "MaxEnt2023"
 event_url = "https://www.ipp.mpg.de/maxent2023"
 location = "Online"
+country_code = "DE"
+place_name = "Garching"
 
 selected = false
 math = true

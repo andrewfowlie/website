@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Lancaster-Manchester-Sheffield Consortium for Fundamental Physics"
 event_url = "https://web.archive.org/web/20130817223517/http://tmex2013.fuw.edu.pl/"
 location = "Sheffield"
+country_code = "GB"
+place_name = "Sheffield"
 
 selected = false
 math = true

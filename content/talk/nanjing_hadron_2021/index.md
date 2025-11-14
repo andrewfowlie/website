@@ -5,6 +5,8 @@ abstract = "The statistical models used to derive the results of experimental an
 event = "Workshop on Hadron Structure at High-Energy, High-Luminosity Facilities 2021"
 event_url = "https://indico.ihep.ac.cn/event/15121/"
 location = "Online"
+country_code = "CN"
+place_name = "Nanjing"
 
 selected = false
 math = false

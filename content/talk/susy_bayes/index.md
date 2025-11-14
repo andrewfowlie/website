@@ -6,6 +6,8 @@ abstract_short = "The discovery of a 125 GeV Higgs-like boson and null results i
 event = "SUSY 2016"
 event_url = "https://indico.cern.ch/event/443176/"
 location = "Melbourne University"
+country_code = "AU"
+place_name = "Melbourne"
 
 selected = false
 math = true

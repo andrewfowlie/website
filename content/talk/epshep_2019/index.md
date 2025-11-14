@@ -5,6 +5,8 @@ abstract = "I discuss findings from my recent comparison of Bayesian and frequen
 event = "EPS-HEP 2019"
 event_url = "https://indico.cern.ch/event/577856/overview"
 location = "Ghent"
+country_code = "BE"
+place_name = "Nt"
 
 selected = false
 math = false

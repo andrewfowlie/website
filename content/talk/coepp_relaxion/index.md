@@ -6,6 +6,8 @@ abstract_short = "The relaxion mechanism is a novel solution to the hierarchy pr
 event = "CoEPP Annual Workshop"
 event_url = "http://www.coepp.org.au/coepp-annual-workshop-2016"
 location = "Torquay"
+country_code = "AU"
+place_name = "Adelaide"
 
 selected = false
 math = true

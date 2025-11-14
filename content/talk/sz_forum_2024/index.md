@@ -6,6 +6,8 @@ abstract_short = ""
 event = "Annual Symposium for Young Mathematicians in the Suzhou Region"
 event_url = ""
 location = "Soochow University"
+country_code = "CN"
+place_name = "Suzhou"
 
 selected = false
 math = false
