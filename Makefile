@@ -42,8 +42,8 @@ dirty:
 	@[ -z "$$(git status --short)" ] || (echo "git tree dirty" && git status --short && exit 1)
 
 .PHONY: deploy
-deploy: dirty setup
-	hugo static/talkmap
+deploy: dirty setup static/talkmap
+	hugo
 	cd public && git add -A
 	cd public && git commit -m "$(MESSAGE)"
 	cd public && git push
