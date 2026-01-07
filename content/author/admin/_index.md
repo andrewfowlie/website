@@ -91,8 +91,6 @@ I've worked extensively on nested sampling, developing an important diagnostic t
 
 Please don't hesitate to contact me to collaborate, for consultancy on statistical issues, or for talks, seminars and media interviews on my work or statistical matters arising in physics.
 
-Starting from AY2025/2026, I *always* sign my reviews, including those publicly available on [Sci|Post](https://scipost.org/contributor/6156).
-
 ### Collaborations
 
 I'm a member of
@@ -108,3 +106,8 @@ I'm a member of
 * Foundations of statistics
 * Statistical computation
 * Nested Sampling
+
+### Policies
+
+* Starting from AY2025/2026, I *always* sign my reviews, including those publicly available on [Sci|Post](https://scipost.org/contributor/6156).
+* My work --- including referee reports, responses to referees, recommendation letters and contributions to published papers and preprints --- is written by me without the use of generative AI.
