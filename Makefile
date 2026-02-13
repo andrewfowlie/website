@@ -3,6 +3,10 @@ MESSAGE ?= 'update webpage'
 static/talkmap:
 	python3 talkmap.py
 
+.PHONY: blog
+blog:
+	cd static/blog && ./bb.sh rebuild
+
 .PHONY: hugo-debian
 hugo-debian:
 	wget -nc https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_Linux-64bit.deb
@@ -42,7 +46,7 @@ dirty:
 	@[ -z "$$(git status --short)" ] || (echo "git tree dirty" && git status --short && exit 1)
 
 .PHONY: deploy
-deploy: dirty setup static/talkmap
+deploy: dirty setup static/talkmap blog
 	hugo
 	cd public && git add -A
 	cd public && git commit -m "$(MESSAGE)"

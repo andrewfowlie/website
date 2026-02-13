@@ -6,3 +6,6 @@
 	path = themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
 	ignore = all
+[submodule "bashblog"]
+	path = bashblog
+	url = https://github.com/cfenollosa/bashblog
