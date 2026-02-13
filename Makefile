@@ -38,7 +38,7 @@ update:
 	git push
 
 .PHONY: preview
-preview:
+preview: static/talkmap blog
 	hugo server --navigateToChanged & sleep 1 && xdg-open http://localhost:1313
 
 .PHONY: dirty
