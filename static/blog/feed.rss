@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>/home/andrew$</title><link>https://andrewfowlie.github.io/blog/index.html</link>
 <description>Some thoughts on physics, statistics, computing & technology</description><language>en</language>
-<lastBuildDate>Thu, 26 Feb 2026 13:45:15 +0000</lastBuildDate>
-<pubDate>Thu, 26 Feb 2026 13:45:15 +0000</pubDate>
+<lastBuildDate>Thu, 26 Feb 2026 13:52:49 +0000</lastBuildDate>
+<pubDate>Thu, 26 Feb 2026 13:52:49 +0000</pubDate>
 <atom:link href="https://andrewfowlie.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Curious trends in arXiv submission data
@@ -77,8 +77,8 @@ if __name__ == "__main__":
 
     initial, final = simulate()
 
-    plt.hist(initial, label="Initial submission month")
-    plt.hist(final, label="Final submission month")
+    plt.hist(initial, bins=end_month, range=(0, end_month), label="Initial submission month")
+    plt.hist(final, bins=end_month, range=(0, end_month), histtype="step", label="Final submission month")
     plt.legend()
     plt.xlabel("Month")
     plt.ylabel("Papers")
@@ -86,6 +86,7 @@ if __name__ == "__main__":
 </code>
 </pre>
 <p>Tags: <a href='tag_code.html'>code</a>, <a href='tag_ai.html'>ai</a>, <a href='tag_arxiv.html'>arxiv</a>, <a href='tag_statistics.html'>statistics</a></p>
+
 
 <!-- text end -->
 ]]></description><link>https://andrewfowlie.github.io/blog/curious-trends-in-arxiv-submission-data.html</link>
@@ -424,9 +425,10 @@ if __name__ == "__main__":
 
 
 
+
 <!-- text end -->
 ]]></description><link>https://andrewfowlie.github.io/blog/mp3-player.html</link>
 <guid>https://andrewfowlie.github.io/blog/./mp3-player.html</guid>
 <dc:creator>Andrew Fowlie</dc:creator>
-<pubDate>Thu, 26 Feb 2026 13:14:32 +0000</pubDate></item>
+<pubDate>Wed, 25 Feb 2026 11:52:54 +0000</pubDate></item>
 </channel></rss>
