@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>/home/andrew$</title><link>https://andrewfowlie.github.io/blog/index.html</link>
 <description>Some thoughts on physics, statistics, computing & technology</description><language>en</language>
-<lastBuildDate>Wed, 04 Mar 2026 11:39:35 +0800</lastBuildDate>
-<pubDate>Wed, 04 Mar 2026 11:39:35 +0800</pubDate>
+<lastBuildDate>Wed, 11 Mar 2026 16:29:04 +0800</lastBuildDate>
+<pubDate>Wed, 11 Mar 2026 16:29:04 +0800</pubDate>
 <atom:link href="https://andrewfowlie.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Be still my beating Hearts...
+</title><description><![CDATA[
+
+<p>Some people say that to find out which football team you should support, you should take a ruler and a map, and find the closest professional club to your place of birth. If I did that, I think I'd get Hearts or Hibs. I've always found the name Heart of Midlothian alluring and charming,
+  and unusually celebral for a football club, being named after a Walter Scott novel.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/6/61/Heart_of_Midlothian_FC_logo.svg" class="center"></img>
+
+<p>Now that I've shown you my credentials, I can say that I am thoroughly enjoying the title race for the Sottish Premier League and hoping that Hearts can win. I don't have them as favourites; I'm worried about Celtic's know-how in getting over the line.
+  I think it might go down to the final round, perhaps
+even the final kick.</p>
+
+<p>Tags: <a href='tag_football.html'>football</a></p>
+<!-- text end -->
+]]></description><link>https://andrewfowlie.github.io/blog/be-still-my-beating-hearts.html</link>
+<guid>https://andrewfowlie.github.io/blog/./be-still-my-beating-hearts.html</guid>
+<dc:creator>Andrew Fowlie</dc:creator>
+<pubDate>Wed, 11 Mar 2026 16:26:45 +0800</pubDate></item>
 <item><title>
 Delving into focal words on inSPIRE HEP
 </title><description><![CDATA[
@@ -23,11 +42,144 @@ I normalized the results to the total number of papers per year. The results are
 that entered popular consciousness because of LLMs?</p>
 
 <p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_academia.html'>academia</a></p>
+
 <!-- text end -->
 ]]></description><link>https://andrewfowlie.github.io/blog/delving-into-focal-words-on-inspire-hep.html</link>
 <guid>https://andrewfowlie.github.io/blog/./delving-into-focal-words-on-inspire-hep.html</guid>
 <dc:creator>Andrew Fowlie</dc:creator>
 <pubDate>Wed, 04 Mar 2026 11:31:43 +0800</pubDate></item>
+<item><title>
+Curious trends in arXiv submission data
+</title><description><![CDATA[
+
+<p>There was a curious discussion at <a href="https://www.math.columbia.edu/~woit/wordpress/">Peter Woit's blog</a> 
+concerning recent arXiv submission trends.
+It was observed (after some initial confusion) that the number of revisions appeared to 
+have increased dramatically in the last month or so.</p>
+
+<p>An (AI generated) analysis, available on <a href="https://github.com/sgnoohc/arxiv-submission-analysis">GitHub</a>, confirmed this pattern.
+The data look like this.</p>
+
+<img src="https://github.com/sgnoohc/arxiv-submission-analysis/raw/main/plots/arxiv_hepth_submissions.png" alt="arXiv submission trends" class="center" style="width:70%">
+
+<p>What causes that surge in revisions (red) versus posts (blue)? This recent trend appears in all arXiv categories. The AI declares that it is a real trend and speculates that authors are submitting revisions using generative AI tools. I'm naturally skeptical, so thought 
+someone should least build a statistical model of what this plot might look like, assuming nothing but a stationary process.</p>
+
+<p> So I did. I took submissions per month to be about 250
+$$
+n \sim \textrm{Po}(250)
+$$ 
+and assumed that authors posted a revision upon publication to match the published version, about six months later,
+$$
+d \sim \textrm{Po}(6)
+$$
+What do you know?</p>
+
+<img src="arxiv.png" alt="arXiv submission trends" class="center" style="width:70%">
+
+<p>In the current month (here month 60), you see the first submissions (that haven't been replaced yet) and revisions (from papers from previous months). In past months, you only see 
+revisions, as the first submissions are later replaced.</p> 
+
+<p>This was an interesting example of a stationary that process produces a mirage of non-stationary behaviour (a surge in the current month). The explanation about AI 
+revisions is unwarranted. On the other hand, there is almost certainly non-stationary behavior in the dataset, as, e.g., the number of academics has increased over time.</p>
+
+<p>Don't take my word for it, of course. Run it yourself. I'd love to see a Bayesian analysis that constructed a principled model and fitted it to the actual data.</p>
+
+<pre class="line-numbers">
+<code class="language-python">
+"""
+arXiv submission patterns
+=========================
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+rate_per_month = 250
+publication_time_months = 6
+end_month = 60  # 5 years
+
+
+def simulate():
+
+    # make papers
+    initial = []
+    for i in range(end_month):
+        initial += np.random.poisson(rate_per_month) * [i + 1]
+
+    # now post a new version after publication some time later
+    published = [a + np.random.poisson(publication_time_months)
+                 for a in initial]
+
+    # final update before end of simulation
+    final = [b if b <= end_month else a for a, b in zip(initial, published)]
+
+    return initial, final
+
+
+if __name__ == "__main__":
+
+    initial, final = simulate()
+
+    bins = np.arange(0.5, end_month + 1, 1)
+
+    plt.hist(initial, bins=bins, label="Initial submission month")
+    plt.hist(final, bins=bins, histtype="step", label="Final submission month")
+    plt.legend()
+    plt.xlabel("Month")
+    plt.ylabel("Papers")
+    plt.savefig("arxiv.png")
+</code>
+</pre>
+
+<p>Tags: <a href='tag_code.html'>code</a>, <a href='tag_ai.html'>ai</a>, <a href='tag_arxiv.html'>arxiv</a>, <a href='tag_statistics.html'>statistics</a></p>
+
+
+<!-- text end -->
+]]></description><link>https://andrewfowlie.github.io/blog/curious-trends-in-arxiv-submission-data.html</link>
+<guid>https://andrewfowlie.github.io/blog/./curious-trends-in-arxiv-submission-data.html</guid>
+<dc:creator>Andrew Fowlie</dc:creator>
+<pubDate>Wed, 04 Mar 2026 09:32:23 +0800</pubDate></item>
+<item><title>
+The Church of Reason
+</title><description><![CDATA[
+
+<p>Reading Zen and the Art of Motorcycle Maintenance. I didn't expect so much relevance to academia (though new little about the book):</p>
+
+<blockquote>
+<p>
+The real University is not a material object. It is not a group of buildings that can be defended by
+police. He explained that when a college lost its accreditation, nobody came
+and shut down the school. There were no legal penalties, no fines, no jail
+sentences. Classes did not stop. Everything went on just as before. Students
+got the same education they would if the school didn’t lose its accreditation.
+All that would happen, Phaedrus said, would simply be an official recognition
+of a condition that already existed. It would be similar to excommunication.
+What would happen is that the real University, which no legislature can
+dictate to and which can never be identified by any location of bricks or
+boards or glass, would simply declare that this place was no longer “holy
+ground.” The real University would vanish from it, and all that would be left
+was the bricks and the books and the material manifestation &hellip;
+</p>
+<p>
+The real University, he said, has no specific location. It owns no property,
+pays no salaries and receives no material dues. The real University is a state
+of mind. It is that great heritage of rational thought that has been brought
+down to us through the centuries and which does not exist at any specific
+location. It’s a state of mind which is regenerated throughout the centuries
+by a body of people who traditionally carry the title of professor, but even
+that title is not part of the real University. The real University is nothing
+less than the continuing body of reason itself.
+</p>
+</blockquote>
+
+<p>Tags: <a href='tag_reading.html'>reading</a>, <a href='tag_academic.html'>academic</a>, <a href='tag_philosophy.html'>philosophy</a></p>
+
+<!-- text end -->
+]]></description><link>https://andrewfowlie.github.io/blog/the-church-of-reason.html</link>
+<guid>https://andrewfowlie.github.io/blog/./the-church-of-reason.html</guid>
+<dc:creator>Andrew Fowlie</dc:creator>
+<pubDate>Mon, 02 Mar 2026 15:45:10 +0800</pubDate></item>
 <item><title>
 mp3 player
 </title><description><![CDATA[
@@ -364,139 +516,10 @@ if __name__ == "__main__":
 
 
 
+
 <!-- text end -->
 ]]></description><link>https://andrewfowlie.github.io/blog/mp3-player.html</link>
 <guid>https://andrewfowlie.github.io/blog/./mp3-player.html</guid>
 <dc:creator>Andrew Fowlie</dc:creator>
-<pubDate>Wed, 04 Mar 2026 09:32:23 +0800</pubDate></item>
-<item><title>
-The Church of Reason
-</title><description><![CDATA[
-
-<p>Reading Zen and the Art of Motorcycle Maintenance. I didn't expect so much relevance to academia (though new little about the book):</p>
-
-<blockquote>
-<p>
-The real University is not a material object. It is not a group of buildings that can be defended by
-police. He explained that when a college lost its accreditation, nobody came
-and shut down the school. There were no legal penalties, no fines, no jail
-sentences. Classes did not stop. Everything went on just as before. Students
-got the same education they would if the school didn’t lose its accreditation.
-All that would happen, Phaedrus said, would simply be an official recognition
-of a condition that already existed. It would be similar to excommunication.
-What would happen is that the real University, which no legislature can
-dictate to and which can never be identified by any location of bricks or
-boards or glass, would simply declare that this place was no longer “holy
-ground.” The real University would vanish from it, and all that would be left
-was the bricks and the books and the material manifestation &hellip;
-</p>
-<p>
-The real University, he said, has no specific location. It owns no property,
-pays no salaries and receives no material dues. The real University is a state
-of mind. It is that great heritage of rational thought that has been brought
-down to us through the centuries and which does not exist at any specific
-location. It’s a state of mind which is regenerated throughout the centuries
-by a body of people who traditionally carry the title of professor, but even
-that title is not part of the real University. The real University is nothing
-less than the continuing body of reason itself.
-</p>
-</blockquote>
-
-<p>Tags: <a href='tag_reading.html'>reading</a>, <a href='tag_academic.html'>academic</a>, <a href='tag_philosophy.html'>philosophy</a></p>
-<!-- text end -->
-]]></description><link>https://andrewfowlie.github.io/blog/the-church-of-reason.html</link>
-<guid>https://andrewfowlie.github.io/blog/./the-church-of-reason.html</guid>
-<dc:creator>Andrew Fowlie</dc:creator>
-<pubDate>Wed, 04 Mar 2026 09:32:23 +0800</pubDate></item>
-<item><title>
-Curious trends in arXiv submission data
-</title><description><![CDATA[
-
-<p>There was a curious discussion at <a href="https://www.math.columbia.edu/~woit/wordpress/">Peter Woit's blog</a> 
-concerning recent arXiv submission trends.
-It was observed (after some initial confusion) that the number of revisions appeared to 
-have increased dramatically in the last month or so.</p>
-
-<p>An (AI generated) analysis, available on <a href="https://github.com/sgnoohc/arxiv-submission-analysis">GitHub</a>, confirmed this pattern.
-The data look like this.</p>
-
-<img src="https://github.com/sgnoohc/arxiv-submission-analysis/raw/main/plots/arxiv_hepth_submissions.png" alt="arXiv submission trends" class="center" style="width:70%">
-
-<p>What causes that surge in revisions (red) versus posts (blue)? This recent trend appears in all arXiv categories. The AI declares that it is a real trend and speculates that authors are submitting revisions using generative AI tools. I'm naturally skeptical, so thought 
-someone should least build a statistical model of what this plot might look like, assuming nothing but a stationary process.</p>
-
-<p> So I did. I took submissions per month to be about 250
-$$
-n \sim \textrm{Po}(250)
-$$ 
-and assumed that authors posted a revision upon publication to match the published version, about six months later,
-$$
-d \sim \textrm{Po}(6)
-$$
-What do you know?</p>
-
-<img src="arxiv.png" alt="arXiv submission trends" class="center" style="width:70%">
-
-<p>In the current month (here month 60), you see the first submissions (that haven't been replaced yet) and revisions (from papers from previous months). In past months, you only see 
-revisions, as the first submissions are later replaced.</p> 
-
-<p>This was an interesting example of a stationary that process produces a mirage of non-stationary behaviour (a surge in the current month). The explanation about AI 
-revisions is unwarranted. On the other hand, there is almost certainly non-stationary behavior in the dataset, as, e.g., the number of academics has increased over time.</p>
-
-<p>Don't take my word for it, of course. Run it yourself. I'd love to see a Bayesian analysis that constructed a principled model and fitted it to the actual data.</p>
-
-<pre class="line-numbers">
-<code class="language-python">
-"""
-arXiv submission patterns
-=========================
-"""
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-rate_per_month = 250
-publication_time_months = 6
-end_month = 60  # 5 years
-
-
-def simulate():
-
-    # make papers
-    initial = []
-    for i in range(end_month):
-        initial += np.random.poisson(rate_per_month) * [i + 1]
-
-    # now post a new version after publication some time later
-    published = [a + np.random.poisson(publication_time_months)
-                 for a in initial]
-
-    # final update before end of simulation
-    final = [b if b <= end_month else a for a, b in zip(initial, published)]
-
-    return initial, final
-
-
-if __name__ == "__main__":
-
-    initial, final = simulate()
-
-    bins = np.arange(0.5, end_month + 1, 1)
-
-    plt.hist(initial, bins=bins, label="Initial submission month")
-    plt.hist(final, bins=bins, histtype="step", label="Final submission month")
-    plt.legend()
-    plt.xlabel("Month")
-    plt.ylabel("Papers")
-    plt.savefig("arxiv.png")
-</code>
-</pre>
-
-<p>Tags: <a href='tag_code.html'>code</a>, <a href='tag_ai.html'>ai</a>, <a href='tag_arxiv.html'>arxiv</a>, <a href='tag_statistics.html'>statistics</a></p>
-
-<!-- text end -->
-]]></description><link>https://andrewfowlie.github.io/blog/curious-trends-in-arxiv-submission-data.html</link>
-<guid>https://andrewfowlie.github.io/blog/./curious-trends-in-arxiv-submission-data.html</guid>
-<dc:creator>Andrew Fowlie</dc:creator>
-<pubDate>Wed, 04 Mar 2026 09:32:23 +0800</pubDate></item>
+<pubDate>Wed, 25 Feb 2026 11:52:54 +0800</pubDate></item>
 </channel></rss>
