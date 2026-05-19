@@ -33,7 +33,7 @@ setup: | public themes/academic
 	hugo version | grep -q v0.59.0
 
 .PHONY: update
-update:
+update: static/talkmap blog
 	git add -A
 	git commit -m "$(MESSAGE)"
 	git push
@@ -47,7 +47,7 @@ dirty:
 	@[ -z "$$(git status --short)" ] || (echo "git tree dirty" && git status --short && exit 1)
 
 .PHONY: deploy
-deploy: dirty setup static/talkmap blog
+deploy: dirty setup
 	hugo
 	cd public && git add -A
 	cd public && git commit -m "$(MESSAGE)"
