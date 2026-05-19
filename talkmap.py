@@ -1,7 +1,10 @@
-"""
-Geolocate talks
-===============
-"""
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "pgeocode",
+#   "getorg",
+# ]
+# ///
 
 import glob
 from dataclasses import dataclass
@@ -14,9 +17,10 @@ import getorg
 URL = "https://andrewfowlie.github.io/talk"
 OUTPUT = "static/talkmap"
 TALKS = glob.glob("content/talk/*/index.md")
-MISSING = {"TW": {"Taipei": (25.04776, 121.53185),
-                  "Hualien": (23.97694, 121.60444)},
-           "KR": {"Seoul": (37.532600, 127.024612)}}
+MISSING = {
+    "TW": {"Taipei": (25.04776, 121.53185), "Hualien": (23.97694, 121.60444)},
+    "KR": {"Seoul": (37.532600, 127.024612)},
+}
 
 
 pgeocode.COUNTRIES_VALID += ["CN"]
@@ -51,7 +55,7 @@ def locate(place_name, country_code):
 
 
 def from_markdown(file_name, key):
-    with open(file_name, 'r') as f:
+    with open(file_name, "r") as f:
         for line in f.readlines():
             if line.startswith(f"{key} ="):
                 return line.split("=")[1].strip().strip('"')
@@ -59,7 +63,8 @@ def from_markdown(file_name, key):
 
 def make_html_map(location_dict):
     getorg.orgmap.output_html_cluster_map(
-        location_dict, folder_name=OUTPUT, hashed_usernames=False)
+        location_dict, folder_name=OUTPUT, hashed_usernames=False
+    )
 
 
 def make_url(file_name):
@@ -68,11 +73,9 @@ def make_url(file_name):
 
 
 if __name__ == "__main__":
-
     location_dict = {}
 
     for file_name in TALKS:
-
         title = from_markdown(file_name, "title")
         location = from_markdown(file_name, "location")
         event = from_markdown(file_name, "event")
@@ -88,12 +91,15 @@ if __name__ == "__main__":
         if event:
             description = f"<a href='{url}'><em>{title}</em></a><br>{event}<br>{location}<br>{date}"
         else:
-            description = f"<a href='{url}'><em>{title}</em></a><br>{location}<br>{date}"
+            description = (
+                f"<a href='{url}'><em>{title}</em></a><br>{location}<br>{date}"
+            )
 
         try:
             location_dict[description] = locate(place_name, country_code)
         except Exception as e:
             print(
-                f"no match for {file_name} at {location} at {place_name}, {country_code} - {e}")
+                f"no match for {file_name} at {location} at {place_name}, {country_code} - {e}"
+            )
 
         make_html_map(location_dict)
