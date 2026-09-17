@@ -2,7 +2,7 @@ MESSAGE ?= 'update webpage'
 
 .PHONY: static/talkmap
 static/talkmap:
-	pipx run talkmap.py
+	# pipx run talkmap.py
 
 .PHONY: blog
 blog:
