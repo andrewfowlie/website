@@ -8,6 +8,10 @@ static/talkmap:
 blog:
 	cd static/blog && ./bb.sh rebuild
 
+.PHONY: iyffa
+iyffa:
+	cd static/iyffa && make
+
 .PHONY: hugo-debian
 hugo-debian:
 	wget -nc https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_Linux-64bit.deb
@@ -33,13 +37,13 @@ setup: | public themes/academic
 	hugo version | grep -q v0.59.0
 
 .PHONY: update
-update: static/talkmap blog
+update: static/talkmap blog iyffa
 	git add -A
 	git commit -m "$(MESSAGE)"
 	git push
 
 .PHONY: preview
-preview: static/talkmap blog
+preview: static/talkmap blog iyffa
 	hugo server --navigateToChanged & sleep 1 && xdg-open http://localhost:1313
 
 .PHONY: dirty

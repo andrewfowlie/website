@@ -14,6 +14,7 @@ weight = 100
 
 +++
 
+- I am writing a series of modern introductions to topics in physics and data science --- [In Your Face for Anybody](iyffa/index.html)
 - I taught introductory maths for engineers, [MTH101](http://modules.xjtlu.edu.cn/?mod_code=MTH101) (2023, 2024 & 2025)
 - I taught the foundations of classical physics, [PHY002](https://modules.xjtlu.edu.cn/?mod_code=PHY002) (2023 & 2024), [PHY001](https://modules.xjtlu.edu.cn/?mod_code=PHY001) (2025) and [PHY005](https://modules.xjtlu.edu.cn/?mod_code=PHY005) (2026)
 - I taught a post-graduate course in Physics beyond the Standard Model (2020 - 2022)
@@ -23,4 +24,3 @@ weight = 100
 - I cosupervised a PhD student at Monash University, Giancarlo Pozzo
 - I supervised Michael Bardsley's summer research project, resulting in a [publication](https://arxiv.org/abs/1603.00555)
 - I taught a post-graduate [statistics course](files/stats_tartu.pdf) for physicists at Tartu University
-
