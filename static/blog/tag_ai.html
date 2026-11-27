@@ -11,11 +11,37 @@
 <div id="description">Some thoughts on physics, statistics, computing & technology</div>
 </div></div></div>
 <div id="divbody"><div class="content">
+<h3><a class="ablack" href="a-mathematician-is-a-machine-for-turning-tokens-into-theorems.html">
+A mathematician is a machine for turning tokens into theorems
+</a></h3>
+<!-- bashblog_timestamp: #202611271445.25# -->
+<div class="subtitle">November 27, 2026 &mdash; 
+Andrew Fowlie
+</div>
+<!-- text begin -->
+
+<p>I’ve been following, from a distance, news about the latest theorem to fall: the Riemann hypothesis. This conjecture to me was synonymous with depth and profundity and wonder in pure math. The distribution of the primes feels so mysterious.</p>
+<p>This AI proof comes with Lean certification. That means that there is a computer program that’s equivalent to the Riemann hypothesis. If the program compiles, the proof holds. For a while I was confused about why proofs had to compile rather than run.</p>
+<p>I’ve written code that compiles but runs forever or crashes:</p>
+<pre><code class="language-python">
+while True:
+    print(“ain’t no stopping us now”)
+</code></pre>
+<p>The Lean compiler, however, attempts to verify that functions terminate. If it cannot verify that they terminate, the proof doesn’t compile. Because it can’t solve the halting problem, this could mean that legitimate proofs cannot be compiled. Lastly, runtime crashes and undefined behavior aren’t a thing. For example, indexing an array requires a compile-time guarantee that the index isn’t out of bounds.</p>
+<p>My mental model for AI proofs now follows rare event sampling. This is more sophisticated than a stochastic parrot; instead of random gibberish or pieces of eight, the parrot was trained to squawk proposed proofs that can be verified by Lean.</p>
+<p>The target - the rare events - are genuine proofs. The LLM provides a proposal distribution trained on the corpus of human written math and proofs. That means the LLM can generate text that resembles real proofs.</p>
+<p>The Lean certification provides the final filter, through a rejection sampling step. If the generated text compiles as a Lean proof, we have succeeded in generating our rare event, a bona fide proof. If it doesn’t compile, the compilation errors could be used to refine the proposal.</p>
+<p>The title of this post riffs on Erdos’ famous aphorism. The definition of a mathematician could be changing. For the time being, our school still provides free coffee. The romantic  in me hopes things don’t change. The culture and the rituals and the mystery of math could disappear as fast as the coffee.</p>
+
+<p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_maths.html'>maths</a>, <a href='tag_coffee.html'>coffee</a></p>
+
+
+<!-- text end -->
 <h3><a class="ablack" href="yang-mills-gas-invoices.html">
 Yang-Mills gas invoices
 </a></h3>
-<!-- bashblog_timestamp: #202611121118.35# -->
-<div class="subtitle">November 12, 2026 &mdash; 
+<!-- bashblog_timestamp: #202611271444.15# -->
+<div class="subtitle">November 27, 2026 &mdash; 
 Andrew Fowlie
 </div>
 <!-- text begin -->
@@ -40,9 +66,10 @@ likelihood tags/flags in sector.
 </pre>
 <p>Unless it’s common to use purchasing analogies in this kind of math (?) it seems like nonsense. Prices? Purchase? Gas estimates? Invoices?</p>
 
-<p>There are intriguing possibilities. Maybe this is genunine math terminology here. Maybe the LLM invented novel mathematical metaphors, leaning on commercial languge for some reason. Maybe these frontier models are in particular tuned for complex financial worka and maths!? In any case I'm surprised this wasn't easier to identify and correct.</p>
+<p>There are intriguing possibilities. Maybe this is genuine math terminology here. Maybe the LLM invented novel mathematical metaphors, leaning on commercial language for some reason. Maybe these frontier models are in particular tuned for complex financial works and maths!? In any case I'm surprised this wasn't easier to identify and correct.</p>
 
 <p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_lean.html'>lean</a></p>
+
 
 
 
@@ -70,6 +97,7 @@ The call dropped. The last token was gone.
 </p>
 
 <p>Tags: <a href='tag_short-stories.html'>short-stories</a>, <a href='tag_cyperpunk.html'>cyperpunk</a>, <a href='tag_ai.html'>ai</a></p>
+
 
 
 
@@ -130,6 +158,7 @@ Instead of sacrificing anything and everything to the whims of men like Mark Zuc
 
 
 
+
 <!-- text end -->
 <h3><a class="ablack" href="the-machine-stops.html">
 The Machine Stops
@@ -145,6 +174,7 @@ However, the book focusses on human connections and alienation and thus perhaps 
 communication and experiences. I found the Machine's preference for $n$-th hand information intriguing: first-hand and second-hand sources were considered partisan and unreliable. The society thus prefers depersonalised, smooth, generic lectures and historical accounts. Any of this sound familiar?</p>
 
 <p>Tags: <a href='tag_reading.html'>reading</a>, <a href='tag_ai.html'>ai</a>, <a href='tag_sci-fi.html'>sci-fi</a></p>
+
 
 
 
@@ -249,6 +279,7 @@ to follow their own instincts and will, which will somehow fulfill the Mechanism
 
 
 
+
 <!-- text end -->
 <h3><a class="ablack" href="ai-tipping-points.html">
 AI tipping points
@@ -270,6 +301,7 @@ Andrew Fowlie
 <p>Only time will tell, but for now I am happy to ying while everyone else yangs. Paradoxically, as a consequence of the rush towards AI, actual understanding of statistics, statistical reasoning, statistical computation, and reasoning under uncertainty in general are at present rare and underdeveloped. I remain interested in AI, but through the perspective of traditional statistics and computing, and with a critical eye on who made it, how and why, and what harm it might cause.</p>
 
 <p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_academia.html'>academia</a></p>
+
 
 
 
@@ -469,6 +501,7 @@ Now what am I to do? You are wasting my time and degrading written communication
 
 
 
+
 <!-- text end -->
 <h3><a class="ablack" href="an-attempt-at-a-zero-shot-ai-disriminator.html">
 An attempt at a zero-shot AI discriminator
@@ -595,6 +628,7 @@ are reasonable approximations to the real models, it would inform us about the c
 
 
 
+
 <!-- text end -->
 <h3><a class="ablack" href="supremacy.html">
 Supremacy
@@ -621,6 +655,7 @@ At which point things changed from 'solve intellgience and then solve everything
 indicated that his beliefs in charity and altruism were exaggerated. However, on the whole I found it informative and genuinely exciting.</p>
 
 <p>Tags: <a href='tag_ai.html'>ai</a></p>
+
 
 
 
@@ -807,6 +842,7 @@ Which is why I mumble.
 
 
 
+
 <!-- text end -->
 <h3><a class="ablack" href="delving-into-focal-words-on-inspire-hep.html">
 Delving into focal words on inSPIRE HEP
@@ -831,6 +867,7 @@ I normalized the results to the total number of papers per year. The results are
 that entered popular consciousness because of LLMs?</p>
 
 <p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_academia.html'>academia</a></p>
+
 
 
 
@@ -1002,6 +1039,7 @@ if __name__ == "__main__":
 </pre>
 
 <p>Tags: <a href='tag_code.html'>code</a>, <a href='tag_ai.html'>ai</a>, <a href='tag_arxiv.html'>arxiv</a>, <a href='tag_statistics.html'>statistics</a></p>
+
 
 
 

@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="prism.css">
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="prism.js"></script>
+<title>/home/andrew$ &mdash; Posts tagged "coffee"</title>
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="https://andrewfowlie.github.io/blog/index.html">/home/andrew$</a></h1>
+<div id="description">Some thoughts on physics, statistics, computing & technology</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<h3><a class="ablack" href="a-mathematician-is-a-machine-for-turning-tokens-into-theorems.html">
+A mathematician is a machine for turning tokens into theorems
+</a></h3>
+<!-- bashblog_timestamp: #202611271445.25# -->
+<div class="subtitle">November 27, 2026 &mdash; 
+Andrew Fowlie
+</div>
+<!-- text begin -->
+
+<p>I’ve been following, from a distance, news about the latest theorem to fall: the Riemann hypothesis. This conjecture to me was synonymous with depth and profundity and wonder in pure math. The distribution of the primes feels so mysterious.</p>
+<p>This AI proof comes with Lean certification. That means that there is a computer program that’s equivalent to the Riemann hypothesis. If the program compiles, the proof holds. For a while I was confused about why proofs had to compile rather than run.</p>
+<p>I’ve written code that compiles but runs forever or crashes:</p>
+<pre><code class="language-python">
+while True:
+    print(“ain’t no stopping us now”)
+</code></pre>
+<p>The Lean compiler, however, attempts to verify that functions terminate. If it cannot verify that they terminate, the proof doesn’t compile. Because it can’t solve the halting problem, this could mean that legitimate proofs cannot be compiled. Lastly, runtime crashes and undefined behavior aren’t a thing. For example, indexing an array requires a compile-time guarantee that the index isn’t out of bounds.</p>
+<p>My mental model for AI proofs now follows rare event sampling. This is more sophisticated than a stochastic parrot; instead of random gibberish or pieces of eight, the parrot was trained to squawk proposed proofs that can be verified by Lean.</p>
+<p>The target - the rare events - are genuine proofs. The LLM provides a proposal distribution trained on the corpus of human written math and proofs. That means the LLM can generate text that resembles real proofs.</p>
+<p>The Lean certification provides the final filter, through a rejection sampling step. If the generated text compiles as a Lean proof, we have succeeded in generating our rare event, a bona fide proof. If it doesn’t compile, the compilation errors could be used to refine the proposal.</p>
+<p>The title of this post riffs on Erdos’ famous aphorism. The definition of a mathematician could be changing. For the time being, our school still provides free coffee. The romantic  in me hopes things don’t change. The culture and the rituals and the mystery of math could disappear as fast as the coffee.</p>
+
+<p>Tags: <a href='tag_ai.html'>ai</a>, <a href='tag_maths.html'>maths</a>, <a href='tag_coffee.html'>coffee</a></p>
+
+
+<!-- text end -->
+</div>
+</div></div>
+</body></html>
